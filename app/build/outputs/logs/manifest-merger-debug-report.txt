@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:2:1-103:12
+	package
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:4:5-10:40
+	android:largeScreens
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:6:9-36
+	android:smallScreens
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:9:9-36
+	android:normalScreens
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:7:9-37
+	android:xlargeScreens
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:10:9-37
+	android:resizeable
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:8:9-34
+	android:anyDensity
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:5:9-34
+application
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:12:5-101:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:17:9-40
+activity#edu.cmu.Soulless3.allavailable.ui.login
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:18:19-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:22:27-74
+activity#edu.cmu.Soulless3.allavailable.ui.signup
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:25:19-74
+intent-filter#android.intent.action.SIGNUP+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.SIGNUP
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:27:17-71
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:27:25-68
+category#android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:29:27-73
+activity#edu.cmu.Soulless3.allavailable.ui.selection
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:32:9-38:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:32:19-77
+intent-filter#android.intent.action.SELECTION+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.SELECTION
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:34:17-74
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:34:25-71
+activity#edu.cmu.Soulless3.allavailable.ui.rooms
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:39:19-73
+intent-filter#android.intent.action.B23ROOMS+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.B23ROOMS
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:41:17-73
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:41:25-70
+activity#edu.cmu.Soulless3.allavailable.ui.room
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:47:9-53:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:47:19-72
+intent-filter#android.intent.action.ROOMCONTROLLER+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:48:13-52:29
+action#android.intent.action.ROOMCONTROLLER
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:49:17-79
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:49:25-76
+activity#edu.cmu.Soulless3.allavailable.ui.roomnotification
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:55:9-61:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:55:19-84
+intent-filter#android.intent.action.NOTIFICATION+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:56:13-60:29
+action#android.intent.action.NOTIFICATION
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:57:25-74
+activity#edu.cmu.Soulless3.allavailable.ui.seats
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:63:9-71:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:64:13-67
+intent-filter#android.intent.action.ACTIVITY9+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:66:13-70:29
+action#android.intent.action.ACTIVITY9
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:67:17-74
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:67:25-71
+activity#edu.cmu.Soulless3.allavailable.ui.seatnotification
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:72:9-80:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:73:13-78
+intent-filter#android.intent.action.ACTIVITY10+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:75:13-79:29
+action#android.intent.action.ACTIVITY10
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:76:17-75
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:76:25-72
+activity#edu.cmu.Soulless3.allavailable.ui.sendsms
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:81:9-89:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:82:13-69
+intent-filter#android.intent.action.ACTIVITY11+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:84:13-88:29
+action#android.intent.action.ACTIVITY11
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:85:17-75
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:85:25-72
+activity#edu.cmu.Soulless3.allavailable.ui.sendpicture
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:90:9-98:20
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:91:13-73
+intent-filter#android.intent.action.ACTIVITY12+android.intent.category.DEFAULT
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:93:13-97:29
+action#android.intent.action.ACTIVITY12
+ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:94:17-75
+	android:name
+		ADDED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml:94:25-72
+uses-sdk
+INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/src/main/AndroidManifest.xml

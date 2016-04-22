@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="60dp"
+    android:weightSum="96">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="16"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Available"
+            android:textSize="45dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="16">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/broom"
+                android:text="Book A Room"
+                android:textSize="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="19">
+        <Button
+            android:id="@+id/btnseat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book A Seat"
+            android:textSize="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="19">
+        <Button
+            android:id="@+id/btnmms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send a Picture"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="19">
+        <Button
+            android:id="@+id/btnsms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:weightSum="100"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="460dp"
+            android:src="@drawable/map"
+            android:layout_weight="10"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are at Building 23"
+            android:layout_weight="90"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
