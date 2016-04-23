@@ -16,6 +16,10 @@
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -80,16 +84,28 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/src/main/res/layout/ui_sendsms.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/ui_roomnotification.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout/ui_roomnotification.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_sendsms.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/app/src/main/res/layout/ui_sendsms.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_rooms.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/src/main/res/layout/ui_rooms.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_sendsms.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/app/src/main/res/layout/ui_sendsms.xml"
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_roomnotification.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_roomnotification.xml"
     },
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -106,6 +122,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
@@ -144,8 +164,16 @@
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/spinner.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/spinner.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -156,12 +184,12 @@
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -188,28 +216,36 @@
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_toolbar.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/activity_signup.xml",
-        "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout/activity_signup.xml"
+        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/activity_signup.xml",
+        "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -260,6 +296,10 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_search_view.xml"
+    },
+    {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
@@ -278,6 +318,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
@@ -304,6 +348,10 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -324,6 +372,10 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view.xml"
     },
@@ -336,8 +388,16 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_part_time.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_sendsms.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_sendsms.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -360,6 +420,10 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_title_item.xml"
     },
@@ -380,6 +444,10 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_sendpicture.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_sendpicture.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_up_container.xml"
     },
@@ -394,6 +462,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/ui_seatnotification.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/src/main/res/layout/ui_seatnotification.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_login.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_login.xml"
     },
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -424,6 +496,10 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
@@ -434,6 +510,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_seats.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_seats.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -508,8 +588,20 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_seatnotification.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_seatnotification.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/room.xml",
@@ -522,6 +614,14 @@
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
@@ -538,6 +638,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -588,6 +692,10 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/src/main/res/layout/ui_roomnotification.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/spinner.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout/spinner.xml"
     },
@@ -598,6 +706,10 @@
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/ui_rooms.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout/ui_rooms.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
@@ -636,6 +748,10 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -664,6 +780,10 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_layout.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
@@ -680,6 +800,10 @@
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_media_action.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_signup.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_signup.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_dialog_title_material.xml"
     },
@@ -688,8 +812,16 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_rooms.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_rooms.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/ui_login.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/src/main/res/layout/ui_login.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/activity_10.xml",
@@ -706,6 +838,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -736,12 +872,20 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_selection.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_selection.xml"
+    },
+    {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
@@ -784,12 +928,20 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/ui_room.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout/ui_room.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/room.xml",
@@ -810,6 +962,14 @@
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -848,6 +1008,10 @@
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_part_time.xml"
     },
@@ -856,12 +1020,20 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/activity_b23rooms.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/src/main/res/layout/activity_b23rooms.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -882,6 +1054,10 @@
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/ui_selection.xml",
@@ -924,6 +1100,10 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_bar.xml"
     },
@@ -940,6 +1120,14 @@
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/layout/activity_1.xml",
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/src/main/res/layout/activity_1.xml"
     },
@@ -954,5 +1142,9 @@
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view.xml"
     }
 ]

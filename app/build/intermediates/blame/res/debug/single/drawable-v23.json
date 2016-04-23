@@ -12,6 +12,10 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v23/abc_control_background_material.xml"
     },
     {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v23/abc_control_background_material.xml"
     },

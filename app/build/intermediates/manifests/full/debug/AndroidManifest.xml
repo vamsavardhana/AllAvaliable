@@ -8,6 +8,8 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -22,70 +24,70 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.login" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.signup" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.signup" >
             <intent-filter>
                 <action android:name="android.intent.action.SIGNUP" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.selection" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.selection" >
             <intent-filter>
                 <action android:name="android.intent.action.SELECTION" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.rooms" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.rooms" >
             <intent-filter>
                 <action android:name="android.intent.action.B23ROOMS" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.room" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.room" >
             <intent-filter>
                 <action android:name="android.intent.action.ROOMCONTROLLER" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.roomnotification" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.roomnotification" >
             <intent-filter>
                 <action android:name="android.intent.action.NOTIFICATION" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.seats" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.seats" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY9" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.seatnotification" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.seatnotification" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY10" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.sendsms" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.sendsms" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY11" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.Soulless3.allavailable.ui.sendpicture" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.sendpicture" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY12" />
 
