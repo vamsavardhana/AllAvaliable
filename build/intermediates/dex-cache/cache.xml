@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_67819ce2e24329c59aed15cf7f011ea97490022d.jar" />
-    </item>
-    <item
-        jar="/Users/feixu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_e7ac24c479d532fd8718931ea9bd8d9692b98e26.jar" />
-    </item>
-    <item
-        jar="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_f470474bf718039a8a045823ca12a1bff4138c3c.jar" />
-    </item>
-    <item
-        jar="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jar="/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_33d00765ef76eaf498a39b9db66446eeeb0d27bc.jar" />
+        <dex dex="/home/anna/Desktop/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_6ba72d588625450e2eef549e97d6e923353faa67.jar" />
     </item>
     <item
-        jar="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jar="/home/anna/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/anna/Desktop/AllAvaliable/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_3c873890384486bb32c17e0e2b227e85e491ea25.jar" />
+    </item>
+    <item
+        jar="/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/anna/Desktop/AllAvaliable/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_2bb0ac9119458510b6799c75f24a3c485886c774.jar" />
+    </item>
+    <item
+        jar="/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_ede8136f4d077009554e12f082a70b0ae9018d83.jar" />
+        <dex dex="/home/anna/Desktop/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_841c3ffe532df86004f7de8569e45cbd12df847d.jar" />
     </item>
     <item
-        jar="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jar="/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/anna/Desktop/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_8f5df14f8bb1a372d5e4ca979fa8ca37561867c2.jar" />
+    </item>
+    <item
+        jar="/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/projectFiles/04-14-2016/AllAvailable/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_bbbfccf7b33e5b94a3488e636cc81e2673181ea5.jar" />
+        <dex dex="/home/anna/Desktop/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_54fe150cde610ad6a5b2ecd1921a11c715bc40e7.jar" />
     </item>
 
 </items>
