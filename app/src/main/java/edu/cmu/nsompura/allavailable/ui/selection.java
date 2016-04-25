@@ -5,16 +5,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import edu.cmu.nsompura.allavailable.R;
+import edu.cmu.nsompura.allavailable.models.building;
 
 /**
  * Created by nidhish on 4/4/16.
  */
 public class selection extends Activity {
     Button broom,btnsms,btnseat,btnmms;
+    building bldg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        bldg=new building(23);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_selection);
         broom = (Button)findViewById(R.id.broom);
@@ -23,6 +25,7 @@ public class selection extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("android.intent.action.B23ROOMS");
+                intent.putExtra("Building_Number", bldg.getBuildingNumber());
                 startActivity(intent);
             }
         });

@@ -11,7 +11,7 @@ import edu.cmu.nsompura.allavailable.R;
 /**
  * Created by feixu on 4/4/16.
  */
-public class room extends AppCompatActivity {
+public class roomUI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_room);

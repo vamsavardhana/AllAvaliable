@@ -15,7 +15,7 @@ public class room {
     List<user> friends=new ArrayList<user>();
 
     //Room Details
-    int roomno;
+    int roomno;String roomName;
     //Timeslots are ten in no. Morning 8to9,to10,10to11,11to12,12to1
     static boolean[] ts=new boolean[5];
 
@@ -61,6 +61,18 @@ public class room {
         this.roomno = room;
     }
 
+    //Returns room name
+    public String getRoomName() {
+        return roomName;
+    }
+
+    //Sets room name
+    public void setRoomName(String roomName1)
+    {
+        this.roomName=roomName1;
+    }
+
+
     public boolean getRoomAvailability()
     {
         return isRoomAvailable;
@@ -76,7 +88,9 @@ public class room {
             str="Room Unavailable";
         }
         return str;
-    }
+        }
+
+
     //Updates Room Resources status whether they are working or not after repair activities
     //if resource is working enter 1, if not enter 0, if you don't know enter any other number
     public void setRoomResourceStatus(int isACWorking1,int isComputerWorking1,int isLockersWorking1, int isTableWorking1, int isTVWorking1)
