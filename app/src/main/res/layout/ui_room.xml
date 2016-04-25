@@ -8,10 +8,11 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:stretchColumns="0,1,2"
+        android:id="@+id/table1"
         android:gravity="center"
-       >
-////title////////
+        ><!--android:stretchColumns="0,1,2"-->
+
+
         <TableRow android:layout_height="match_parent"
                   android:layout_width="match_parent" android:id="@+id/tableRow1">
             <TextView android:id="@+id/title1"
@@ -43,96 +44,96 @@
                       android:layout_gravity="center_vertical"
                       android:paddingRight="1dp"></TextView>
         </TableRow>
-///////time slot 1////////
-        <TableRow android:layout_height="wrap_content"
-                  android:layout_width="match_parent" android:id="@+id/tableRow2">
-            <TextView android:id="@+id/title11"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="9:00 Am to 12:00 Am" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      android:paddingRight="5dp"></TextView>
+<!--///////time slot 1////////-->
+        <!--<TableRow android:layout_height="wrap_content"-->
+                  <!--android:layout_width="match_parent" android:id="@+id/tableRow2">-->
+            <!--<TextView android:id="@+id/title11"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="9:00 Am to 12:00 Am" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--android:paddingRight="5dp"></TextView>-->
 
-            <TextView android:id="@+id/title12"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="Avaliable" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      android:paddingRight="5dp"></TextView>
+            <!--<TextView android:id="@+id/title12"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="Avaliable" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--android:paddingRight="5dp"></TextView>-->
 
-            <Button android:id="@+id/buttonTitle13"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="Book time slot" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      ></Button>
-        </TableRow>
-//////time slot two
-        <TableRow android:layout_height="wrap_content"
-                  android:layout_width="match_parent" android:id="@+id/tableRow3">
-            <TextView android:id="@+id/title21"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="1:00 Pm to 3:00 Pm" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      android:paddingRight="5dp"></TextView>
+            <!--<Button android:id="@+id/buttonTitle13"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="Book time slot" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--></Button>-->
+        <!--</TableRow>-->
+<!--//////time slot two-->
+        <!--<TableRow android:layout_height="wrap_content"-->
+                  <!--android:layout_width="match_parent" android:id="@+id/tableRow3">-->
+            <!--<TextView android:id="@+id/title21"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="1:00 Pm to 3:00 Pm" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--android:paddingRight="5dp"></TextView>-->
 
-            <TextView android:id="@+id/title22"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="Avaliable" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      android:paddingRight="5dp"></TextView>
+            <!--<TextView android:id="@+id/title22"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="Avaliable" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--android:paddingRight="5dp"></TextView>-->
 
-            <Button android:id="@+id/buttonTitle23"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="Book time slot" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      ></Button>
-        </TableRow>
-///////time slot 3
-        <TableRow android:layout_height="wrap_content"
-                  android:layout_width="match_parent" android:id="@+id/tableRow4">
-            <TextView android:id="@+id/title31"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="4:00 Pm to 7:00 Pm" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      android:paddingRight="5dp"></TextView>
+            <!--<Button android:id="@+id/buttonTitle23"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="Book time slot" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--></Button>-->
+        <!--</TableRow>-->
+<!--///////time slot 3-->
+        <!--<TableRow android:layout_height="wrap_content"-->
+                  <!--android:layout_width="match_parent" android:id="@+id/tableRow4">-->
+            <!--<TextView android:id="@+id/title31"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="4:00 Pm to 7:00 Pm" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--android:paddingRight="5dp"></TextView>-->
 
-            <TextView android:id="@+id/title32"
-                      android:layout_width="wrap_content"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="Avaliable" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      android:paddingRight="5dp"></TextView>
+            <!--<TextView android:id="@+id/title32"-->
+                      <!--android:layout_width="wrap_content"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="Avaliable" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--android:paddingRight="5dp"></TextView>-->
 
-            <Button android:id="@+id/buttonTitle33"
-                      android:layout_width="match_parent"
-                      android:layout_height="60dp"
-                      android:layout_weight="1"
-                      android:text="Book time slot" android:textColor="#000"
-                      android:gravity="center"
-                      android:layout_gravity="center_vertical"
-                      ></Button>
-        </TableRow>
+            <!--<Button android:id="@+id/buttonTitle33"-->
+                      <!--android:layout_width="match_parent"-->
+                      <!--android:layout_height="60dp"-->
+                      <!--android:layout_weight="1"-->
+                      <!--android:text="Book time slot" android:textColor="#000"-->
+                      <!--android:gravity="center"-->
+                      <!--android:layout_gravity="center_vertical"-->
+                      <!--></Button>-->
+        <!--</TableRow>-->
 
     </TableLayout>
 </LinearLayout>

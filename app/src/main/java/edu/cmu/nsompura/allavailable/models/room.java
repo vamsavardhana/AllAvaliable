@@ -17,7 +17,7 @@ public class room {
     //Room Details
     int roomno;String roomName;
     //Timeslots are ten in no. Morning 8to9,to10,10to11,11to12,12to1
-    static boolean[] ts=new boolean[5];
+    public static boolean[] ts=new boolean[5];
 
 
     //resources in the room

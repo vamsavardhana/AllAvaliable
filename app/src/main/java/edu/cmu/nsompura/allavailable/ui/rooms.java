@@ -50,6 +50,7 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent("android.intent.action.ROOMCONTROLLER");
+                myIntent.putExtra("Building_Number",bldg.getBuildingNumber());
                 startActivity(myIntent);
             }
         });
