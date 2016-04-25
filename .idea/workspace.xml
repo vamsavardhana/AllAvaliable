@@ -46,12 +46,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/nsompura/allavailable/ui/sendpicture.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+              <caret line="55" column="12" selection-start-line="53" selection-start-column="16" selection-end-line="55" selection-end-column="12" />
               <folding>
                 <element signature="e#876#1491#0" expanded="true" />
                 <element signature="e#1490#1491#0" expanded="true" />
                 <element signature="e#1606#1844#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,9 +59,15 @@
       <file leaf-file-name="sendsms.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/nsompura/allavailable/ui/sendsms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6416382">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.8976109">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+              <folding>
+                <element signature="e#1042#1275#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1340#2624#0" expanded="true" />
+                <element signature="e#1696#1704#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2132,19 +2137,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/nsompura/allavailable/ui/sendpicture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-          <folding>
-            <element signature="e#876#1491#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1606#1844#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2155,11 +2147,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/nsompura/allavailable/ui/sendpicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="12" selection-start-line="53" selection-start-column="16" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <element signature="e#876#1491#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1606#1844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/nsompura/allavailable/ui/sendsms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6416382">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.8976109">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="e#1042#1275#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1340#2624#0" expanded="true" />
+            <element signature="e#1696#1704#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
