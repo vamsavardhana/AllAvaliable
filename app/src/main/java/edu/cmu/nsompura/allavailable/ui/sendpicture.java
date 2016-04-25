@@ -45,7 +45,7 @@ public class sendpicture extends Activity {
         });
 
 
-        //Old functionality tbr
+        //returns to main menu
         ret=(Button)findViewById(R.id.btn15);
 
         ret.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +68,7 @@ public class sendpicture extends Activity {
         i.putExtra(Intent.EXTRA_STREAM,uri);
         i.setType("image/png");
         startActivity(i);
+
 
         if (requestCode == 1) {
             if (resultCode == Activity.RESULT_OK) {
