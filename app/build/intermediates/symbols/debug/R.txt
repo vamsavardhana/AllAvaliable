@@ -483,8 +483,8 @@ int id btn11 0x7f0d0086
 int id btn12 0x7f0d0087
 int id btn13 0x7f0d007a
 int id btn14 0x7f0d007b
-int id btn15 0x7f0d008c
-int id btn16 0x7f0d008d
+int id btn15 0x7f0d008d
+int id btn16 0x7f0d008e
 int id btn2 0x7f0d007d
 int id btn3 0x7f0d007e
 int id btn4 0x7f0d007f
@@ -503,6 +503,7 @@ int id buttonTitle33 0x7f0d0070
 int id cancel_action 0x7f0d0051
 int id checkbox 0x7f0d0039
 int id chronometer 0x7f0d0057
+int id clickapicture 0x7f0d008c
 int id collapseActionView 0x7f0d001d
 int id contentPanel 0x7f0d0031
 int id custom 0x7f0d0037
@@ -513,8 +514,8 @@ int id disableHome 0x7f0d000c
 int id edit_query 0x7f0d0043
 int id end 0x7f0d001a
 int id end_padder 0x7f0d005c
-int id et1 0x7f0d008e
-int id et2 0x7f0d008f
+int id et1 0x7f0d008f
+int id et2 0x7f0d0090
 int id expand_activities_button 0x7f0d0025
 int id expanded_menu 0x7f0d0038
 int id home 0x7f0d0004
@@ -562,7 +563,7 @@ int id showCustom 0x7f0d000f
 int id showHome 0x7f0d0010
 int id showTitle 0x7f0d0011
 int id signup 0x7f0d0060
-int id signup2 0x7f0d0090
+int id signup2 0x7f0d0091
 int id spacer 0x7f0d002c
 int id spinner 0x7f0d0078
 int id split_action_bar 0x7f0d0007

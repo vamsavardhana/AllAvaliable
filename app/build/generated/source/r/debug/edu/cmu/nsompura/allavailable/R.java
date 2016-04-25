@@ -1648,8 +1648,8 @@ containing a value of this type.
         public static final int btn12=0x7f0d0087;
         public static final int btn13=0x7f0d007a;
         public static final int btn14=0x7f0d007b;
-        public static final int btn15=0x7f0d008c;
-        public static final int btn16=0x7f0d008d;
+        public static final int btn15=0x7f0d008d;
+        public static final int btn16=0x7f0d008e;
         public static final int btn2=0x7f0d007d;
         public static final int btn3=0x7f0d007e;
         public static final int btn4=0x7f0d007f;
@@ -1668,6 +1668,7 @@ containing a value of this type.
         public static final int cancel_action=0x7f0d0051;
         public static final int checkbox=0x7f0d0039;
         public static final int chronometer=0x7f0d0057;
+        public static final int clickapicture=0x7f0d008c;
         public static final int collapseActionView=0x7f0d001d;
         public static final int contentPanel=0x7f0d0031;
         public static final int custom=0x7f0d0037;
@@ -1678,8 +1679,8 @@ containing a value of this type.
         public static final int edit_query=0x7f0d0043;
         public static final int end=0x7f0d001a;
         public static final int end_padder=0x7f0d005c;
-        public static final int et1=0x7f0d008e;
-        public static final int et2=0x7f0d008f;
+        public static final int et1=0x7f0d008f;
+        public static final int et2=0x7f0d0090;
         public static final int expand_activities_button=0x7f0d0025;
         public static final int expanded_menu=0x7f0d0038;
         public static final int home=0x7f0d0004;
@@ -1727,7 +1728,7 @@ containing a value of this type.
         public static final int showHome=0x7f0d0010;
         public static final int showTitle=0x7f0d0011;
         public static final int signup=0x7f0d0060;
-        public static final int signup2=0x7f0d0090;
+        public static final int signup2=0x7f0d0091;
         public static final int spacer=0x7f0d002c;
         public static final int spinner=0x7f0d0078;
         public static final int split_action_bar=0x7f0d0007;

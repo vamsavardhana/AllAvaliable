@@ -28,12 +28,12 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_ratingbar_full_material.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",

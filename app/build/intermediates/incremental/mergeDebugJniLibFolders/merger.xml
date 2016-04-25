@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/anna/Desktop/AllAvaliable/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/anna/Desktop/AllAvaliable/app/src/debug/jniLibs"/></dataSet></merger>

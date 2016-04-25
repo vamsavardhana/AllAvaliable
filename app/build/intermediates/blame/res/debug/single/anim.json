@@ -28,12 +28,12 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_in.xml"
-    },
-    {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
