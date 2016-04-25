@@ -106,10 +106,10 @@ action#android.intent.action.B23ROOMS
 ADDED from /home/anna/Desktop/AllAvaliable/app/src/main/AndroidManifest.xml:44:17-73
 	android:name
 		ADDED from /home/anna/Desktop/AllAvaliable/app/src/main/AndroidManifest.xml:44:25-70
-activity#edu.cmu.nsompura.allavailable.ui.room
+activity#edu.cmu.nsompura.allavailable.ui.roomUI
 ADDED from /home/anna/Desktop/AllAvaliable/app/src/main/AndroidManifest.xml:50:9-56:20
 	android:name
-		ADDED from /home/anna/Desktop/AllAvaliable/app/src/main/AndroidManifest.xml:50:19-71
+		ADDED from /home/anna/Desktop/AllAvaliable/app/src/main/AndroidManifest.xml:50:19-73
 intent-filter#android.intent.action.ROOMCONTROLLER+android.intent.category.DEFAULT
 ADDED from /home/anna/Desktop/AllAvaliable/app/src/main/AndroidManifest.xml:51:13-55:29
 action#android.intent.action.ROOMCONTROLLER

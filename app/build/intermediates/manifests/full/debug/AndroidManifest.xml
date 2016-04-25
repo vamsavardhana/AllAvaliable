@@ -54,7 +54,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.cmu.nsompura.allavailable.ui.room" >
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.roomUI" >
             <intent-filter>
                 <action android:name="android.intent.action.ROOMCONTROLLER" />
 

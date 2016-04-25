@@ -39,32 +39,13 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
         rooms1.addAll(bldg.rooms);
 
         ArrayList<String> roomNames=new ArrayList<String>();
-        Log.i("Roomsize",rooms1.size()+"");
-        Log.i("Roomname",bldg.rooms.get(0).getRoomName());
-        Log.i("Roomname",bldg.rooms.get(1).getRoomName());
-        Log.i("Roomname",bldg.rooms.get(2).getRoomName());
-
-        for(int i=0;i<rooms1.size();i++)
+                for(int i=0;i<rooms1.size();i++)
         {
         roomNames.add(bldg.rooms.get(i).getRoomName());
-            Log.i("Roomdetail", bldg.rooms.get(i).getRoomName());
         }
-
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, roomNames);
-
-
-
-//// Create an ArrayAdapter using the string array and a default spinner layout
-//        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-//                R.array.planets_array, R.layout.spinner);
-//// Specify the layout to use when the list of choices appears
-//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//// Apply the  to the spinner
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
         spinner.setAdapter(adapter);
-       // spinner.setOnItemSelectedListener(this);
-
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
