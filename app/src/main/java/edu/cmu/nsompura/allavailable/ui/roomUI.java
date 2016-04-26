@@ -39,59 +39,60 @@ public class roomUI extends AppCompatActivity {
         {
             TableRow tr_head = new TableRow(this);
             tr_head.setId(k);
-            //tr_head.setBackgroundColor(Color.GRAY);        // part1
             tr_head.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
 
-            for(int j=0;j<3;j++)
-                {
                     TextView label_column1= new TextView(this);
-                    label_column1.setId(x+0);
-                    label_column1.setText("HELLO");
-                    label_column1.setTextColor(Color.WHITE);          // part2
-                    label_column1.setPadding(5, 5, 5, 5);
-                    tr_head.addView(label_column1);
+                    label_column1.setId(x + 0);
+            if(k==0) {
+                label_column1.setText("9:00-10:00");
+            }
+            else if(k==1)
+            {
+                label_column1.setText("10:00-11:00");
+            }
+            else if(k==2)
+            {
+                label_column1.setText("11:00-12:00");
+            }
+            else if(k==3)
+            {
+                label_column1.setText("12:00-1:00");
+            }
+            else if(k==4)
+            {
+                label_column1.setText("1:00-2:00");
+            }
+            label_column1.setPadding(5, 5, 5, 5);
+            tr_head.addView(label_column1);
 
-                    TextView label_column2= new TextView(this);
-                    label_column2.setId(x+1);
-                    label_column2.setText("HELLO");
-                    label_column2.setTextColor(Color.WHITE);          // part2
+            TextView label_column2= new TextView(this);
+            label_column2.setId(x + 1);
+            label_column1.setText(bldg.rooms.get(0).getRoomStatus());
+            if(bldg.rooms.get(0).getRoomStatus()=="Room Available") {
+                label_column1.setTextColor(Color.GREEN);
+            }
+            else if(bldg.rooms.get(0).getRoomStatus()=="Room Unavailable") {
+                label_column1.setTextColor(Color.RED);
+            }
+            else{
+                label_column1.setTextColor(Color.BLACK);
+            }
+            label_column2.setTextColor(Color.WHITE);          // part2
                     label_column2.setPadding(5, 5, 5, 5);
                     tr_head.addView(label_column2);
-
                     Button btn = new Button(this);
                     btn.setText("Test Text");
                     btn.setId(x+2);
                     tr_head.addView(btn);
 
+
+            
+
+
                     x=x+10;
-                }
             table.addView(tr_head);
         }
         table.requestLayout();
-        final Button button1 = (Button) findViewById(R.id.buttonTitle13);
-        final Button button2 = (Button) findViewById(R.id.buttonTitle23);
-        final Button button3 = (Button) findViewById(R.id.buttonTitle33);
-//
-//        if(button1 != null && button2 != null && button3 != null){
-//            button1.setOnClickListener(new View.OnClickListener() {
-//                public void onClick(View v) {
-//                    Intent myIntent = new Intent("android.intent.action.NOTIFICATION");
-//                    startActivity(myIntent);
-//                }
-//            });
-//            button2.setOnClickListener(new View.OnClickListener() {
-//                public void onClick(View v) {
-//                    Intent myIntent = new Intent("android.intent.action.NOTIFICATION");
-//                    startActivity(myIntent);
-//                }
-//            });
-//            button3.setOnClickListener(new View.OnClickListener() {
-//                public void onClick(View v) {
-//                    Intent myIntent = new Intent("android.intent.action.NOTIFICATION");
-//                    startActivity(myIntent);
-//                }
-//            });
-
         }
 
     }
