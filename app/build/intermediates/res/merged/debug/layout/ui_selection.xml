@@ -68,12 +68,9 @@
         android:layout_weight="16"
         android:weightSum="100"
         android:orientation="vertical">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:src="@drawable/map"
-            android:layout_weight="50"
-            />
+        <!--<fragment-->
+        <!--android:id="@+id/fragment1"-->
+        <!--tools:layout="@layout/fragment1"/>-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -62,22 +62,23 @@ public class roomUI extends AppCompatActivity {
             {
                 label_column1.setText("1:00-2:00");
             }
+            else{label_column1.setText("NOT WORKING");}
+            label_column1.setTextColor(Color.BLACK);
             label_column1.setPadding(5, 5, 5, 5);
             tr_head.addView(label_column1);
 
             TextView label_column2= new TextView(this);
             label_column2.setId(x + 1);
-            label_column1.setText(bldg.rooms.get(0).getRoomStatus());
+            label_column2.setText(bldg.rooms.get(0).getRoomStatus());
             if(bldg.rooms.get(0).getRoomStatus()=="Room Available") {
-                label_column1.setTextColor(Color.GREEN);
+                label_column2.setTextColor(Color.GREEN);
             }
             else if(bldg.rooms.get(0).getRoomStatus()=="Room Unavailable") {
-                label_column1.setTextColor(Color.RED);
+                label_column2.setTextColor(Color.RED);
             }
             else{
-                label_column1.setTextColor(Color.BLACK);
+                label_column2.setTextColor(Color.BLACK);
             }
-            label_column2.setTextColor(Color.WHITE);          // part2
                     label_column2.setPadding(5, 5, 5, 5);
                     tr_head.addView(label_column2);
                     Button btn = new Button(this);
@@ -85,8 +86,17 @@ public class roomUI extends AppCompatActivity {
                     btn.setId(x+2);
                     tr_head.addView(btn);
 
+            btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                //Enter logic here for creating request for timeslot value for room in database
+                    //Read current value in table- roomstatus for timeslot
+                    //If no value, create value
+                    //If RoomAvailable book TS, and intent to room notification activity
+                    //else toast message room not available
 
-            
+                }});
+
 
 
                     x=x+10;

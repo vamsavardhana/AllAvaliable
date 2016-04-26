@@ -30,12 +30,12 @@ public class room {
 
 
     //working or non working condition
-    static boolean isTVWorking;
-    static boolean isComputerWorking;
-    static boolean isTableWorking;
-    static boolean isACWorking;
-    static boolean isLockersWorking;
-    static boolean isRoomAvailable;
+    static boolean isTVWorking=true;
+    static boolean isComputerWorking=true;
+    static boolean isTableWorking=true;
+    static boolean isACWorking=true;
+    static boolean isLockersWorking=true;
+    static boolean isRoomAvailable=true;
 
 
     //Array list of seats created
