@@ -1,6 +1,9 @@
 package edu.cmu.nsompura.allavailable.ui;
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +21,10 @@ public class selection extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         bldg=new building(23);
         super.onCreate(savedInstanceState);
+        FragmentManager fragmanager=getFragmentManager();
+        FragmentTransaction fragtransaction=fragmanager.beginTransaction();
+        Fragment frag1=getFragmentManager().findFragmentById(R.id.mapview);
+
         setContentView(R.layout.ui_selection);
         broom = (Button)findViewById(R.id.broom);
 
@@ -29,6 +36,8 @@ public class selection extends Activity {
                 startActivity(intent);
             }
         });
+
+
         btnseat = (Button)findViewById(R.id.btnseat);
 
         btnseat.setOnClickListener(new View.OnClickListener() {

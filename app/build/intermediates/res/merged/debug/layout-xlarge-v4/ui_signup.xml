@@ -30,6 +30,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/uName"
             android:hint="username"
             android:textSize="30dp"/>
     </LinearLayout>
@@ -47,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
+            android:id="@+id/pWord"
             android:password="true"
             android:textSize="30dp"/>
     </LinearLayout>

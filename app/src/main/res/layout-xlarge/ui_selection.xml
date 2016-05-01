@@ -72,12 +72,9 @@
         android:layout_weight="7"
         android:weightSum="100"
         android:orientation="vertical">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="460dp"
-            android:src="@drawable/map"
-            android:layout_weight="10"
-            />
+        <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

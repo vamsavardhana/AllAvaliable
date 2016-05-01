@@ -18,10 +18,11 @@ import java.net.URLConnection;
 import edu.cmu.nsompura.allavailable.R;
 
 public class login extends AppCompatActivity {
-    EditText username, password;
+    EditText username, password;boolean flag=true;
     Button login,signup;
     String user_name;
     String pass_word;
+    static String doubledValue="0";
 //    static String doubledValue="";
 //    static final LatLng HAMBURG = new LatLng(53.558, 9.927);
 //    static final LatLng KIEL = new LatLng(53.551, 9.993);
@@ -40,8 +41,8 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
-                Log.i("in","in");
+                doubledValue="";
+                Log.i("in", "in");
                 Thread thread = new Thread(new Runnable()
                 {
                     private login parent;
@@ -57,11 +58,11 @@ public class login extends AppCompatActivity {
                     String usern = username.getText().toString();
                     String passw=password.getText().toString();
                     String inputString="login:uname:"+usern+";pword:"+passw;
-                    Log.i("InputString",inputString);
+                    Log.i("InputString", inputString);
                     connection.setDoOutput(true);
                     Log.i("Connection.setDooutput","Connection.setdooutput");
                     OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
-                    Log.i("osw","osw");
+                    Log.i("osw", "osw");
                     out.write(inputString);
                     out.close();
                     Log.i("out.close","out.close");
@@ -70,7 +71,7 @@ public class login extends AppCompatActivity {
                     BufferedReader buff=new BufferedReader(in);
                     Log.i("buff","buff");
                     String returnString="";
-                    String doubledValue="0";
+
                     while ((returnString = buff.readLine()) != null)
                     {
                         doubledValue= returnString;
@@ -78,32 +79,61 @@ public class login extends AppCompatActivity {
                     Log.i("DoubledValue",doubledValue);
                     in.close();
                     buff.close();
-                    if(doubledValue.contains("ufalse"))
-                    {
-                        Toast.makeText(getApplicationContext(),"The username and password are wrong",Toast.LENGTH_SHORT);
-                    }
-                    else if (doubledValue.contains("utrue"))
-                    {
-                        Intent myIntent = new Intent("android.intent.action.SIGNUP");
-                        startActivity(myIntent);
-                    }
-                    else
-                    {
-                        Log.i("NOT WORKING","NOT WORKING");
-                    }
+//                    if(doubledValue.contains("ufalse"))
+//                    {
+//                        Toast.makeText(getApplicationContext(),"The username and password are wrong",Toast.LENGTH_SHORT);
+//                    }
+//                    else if (doubledValue.contains("ptrue"))
+//                    {
+//                        Intent myIntent = new Intent("android.intent.action.SIGNUP");
+//                        startActivity(myIntent);
+//                    }
+//                    else
+//                    {
+//                        Log.i("NOT WORKING","NOT WORKING");
+//                    }
 
                 }catch(Exception e)
                 {
                     Log.d("Exception",e.toString());
                 }
+                }});thread.start();
 
-                    }});thread.start();
-                Log.i("OUT","OUT");}});
+                Log.i("OUT","OUT");
+                while(flag==true)
+                {
+                if(doubledValue.contains("ufalse"))
+                {
+                    Log.i("inside ufalse", "inside ufalse");
+                    Toast.makeText(getApplicationContext(),"No such username exists in the data base Please sign up!!",Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                else if (doubledValue.contains("ptrue"))
+                {
+                        Log.i("inside ptrue","inside ptrue");
+                        Intent myIntent = new Intent(login.this,selection.class);
+                        startActivity(myIntent);
+                        break;
+                }
+                else if(doubledValue.contains("pfalse"))
+                {
+                    Log.i("inside pfalse","inside pfalse");
+                    Toast.makeText(getApplicationContext(),"The password is incorrect. Login again!!",Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                else
+                {
+
+                }
+                }
+            }});
 
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Log.i("OUT","OUT");
                 Intent myIntent = new Intent("android.intent.action.SIGNUP");
                 startActivity(myIntent);
 
