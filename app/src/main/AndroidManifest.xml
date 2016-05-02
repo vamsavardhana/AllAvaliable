@@ -28,6 +28,7 @@
 
     <application
 
+        android:name=".MyApp"
     android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -35,7 +36,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="your_key"/>
+            android:value="AIzaSyDsCQJZmJmAxFqaBJLSfFyWg79S-iKN7vY"/>
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
@@ -59,6 +60,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
         </activity>
         <activity android:name="edu.cmu.nsompura.allavailable.ui.rooms">
             <intent-filter>

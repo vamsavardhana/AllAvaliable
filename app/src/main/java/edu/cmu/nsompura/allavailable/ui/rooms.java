@@ -57,60 +57,60 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Thread thread = new Thread(new Runnable()
-//                {
-//                    private login parent;
-//                    @Override
-//                    public void run()
-//                    {
+                Thread thread = new Thread(new Runnable()
+                {
+                    private login parent;
+                    @Override
+                    public void run()
+                    {
 
-//                        try{
-//                            URL url = new URL("http://172.29.92.114:8080/ServerForAllAvaliable/AllAvaliableServer");
-//                            Log.i("URL","URL");
-//                            URLConnection connection = url.openConnection();
-//                            Log.i("Connection","Connection");
-//                            String inputString="conferenceroomstatus:"+GLG;
-//                            Log.i("InputString",inputString);
-//                            connection.setDoOutput(true);
-//                            Log.i("Connection.setDooutput","Connection.setdooutput");
-//                            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
-//                            Log.i("osw","osw");
-//                            out.write(inputString);
-//                            out.close();
-//                            Log.i("out.close","out.close");
-//                            InputStreamReader in = new InputStreamReader(connection.getInputStream());
-//                            Log.i("isr","isr");
-//                            BufferedReader buff=new BufferedReader(in);
-//                            Log.i("buff","buff");
-//                            String returnString="";
-//                            String doubledValue="0";
-//                            while ((returnString = buff.readLine()) != null)
-//                            {
-//                                doubledValue= returnString;
-//                            }
-//                            Log.i("DoubledValue",doubledValue);
-//                            in.close();
-//                            buff.close();
-//                            if(doubledValue.contains("ufalse"))
-//                            {
-//                                Toast.makeText(getApplicationContext(), "The username and password are wrong", Toast.LENGTH_SHORT);
-//                            }
-//                            else if (doubledValue.contains("utrue"))
-//                            {
-//                                Intent myIntent = new Intent("android.intent.action.SIGNUP");
-//                                startActivity(myIntent);
-//                            }
-//                            else
-//                            {
-//                                Log.i("NOT WORKING","NOT WORKING");
-//                            }
-//
-//                        }catch(Exception e)
-//                        {
-//                            Log.d("Exception",e.toString());
-//                        }
-//
-//                    }});thread.start();
+                        try{
+                            URL url = new URL("http://172.29.92.114:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            Log.i("URL","URL");
+                            URLConnection connection = url.openConnection();
+                            Log.i("Connection","Connection");
+                            String inputString="conferenceroomstatus:"+GLG;
+                            Log.i("InputString",inputString);
+                            connection.setDoOutput(true);
+                            Log.i("Connection.setDooutput","Connection.setdooutput");
+                            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
+                            Log.i("osw","osw");
+                            out.write(inputString);
+                            out.close();
+                            Log.i("out.close","out.close");
+                            InputStreamReader in = new InputStreamReader(connection.getInputStream());
+                            Log.i("isr","isr");
+                            BufferedReader buff=new BufferedReader(in);
+                            Log.i("buff","buff");
+                            String returnString="";
+                            String doubledValue="0";
+                            while ((returnString = buff.readLine()) != null)
+                            {
+                                doubledValue= returnString;
+                            }
+                            Log.i("DoubledValue",doubledValue);
+                            in.close();
+                            buff.close();
+                            if(doubledValue.contains("ufalse"))
+                            {
+                                Toast.makeText(getApplicationContext(), "The username and password are wrong", Toast.LENGTH_SHORT);
+                            }
+                            else if (doubledValue.contains("utrue"))
+                            {
+                                Intent myIntent = new Intent("android.intent.action.SIGNUP");
+                                startActivity(myIntent);
+                            }
+                            else
+                            {
+                                Log.i("NOT WORKING","NOT WORKING");
+                            }
+
+                        }catch(Exception e)
+                        {
+                            Log.d("Exception",e.toString());
+                        }
+
+                    }});thread.start();
                 Log.i("OUT","OUT");}});
 
 
