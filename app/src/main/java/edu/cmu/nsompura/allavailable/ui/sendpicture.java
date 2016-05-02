@@ -45,16 +45,7 @@ public class sendpicture extends Activity {
         });
 
 
-        //returns to main menu
-        ret=(Button)findViewById(R.id.btn15);
 
-        ret.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myintent = new Intent("android.intent.action.SELECTION");
-                startActivity(myintent);
-            }
-        });
     }
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Garbage collector used to free memory advised to not use it on stackoverflow
