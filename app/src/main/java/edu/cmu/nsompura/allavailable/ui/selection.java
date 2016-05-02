@@ -76,30 +76,34 @@ public class selection extends Activity {
         Log.i("Fragment created", "Fragment created");
         FragmentManager fragmanager=getFragmentManager();
         FragmentTransaction fragtransaction=fragmanager.beginTransaction();
-            Log.i("went in","Went in");
+            Log.i("went in", "Went in");
             Mapview mp2=new Mapview();
             fragtransaction.replace(R.id.fragment1, mp2).addToBackStack("TAG").commit();
             getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
         Log.i("Fragment finished", "Fragment finished");
         setContentView(R.layout.ui_selection);
-
+        Bundle extras = getIntent().getExtras();
+        final String uname1=extras.getString("uname");
         //Tell the user which room he is in
         bldg1 = (TextView)findViewById(R.id.bldg11);
         bldg1.setText("The building you are in is"+bldgno);
         broom = (Button)findViewById(R.id.broom);
+
+        //When the user books a room
         broom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent("android.intent.action.ROOMCONTROLLER");
+                Intent intent = new Intent(selection.this,rooms.class);
                 Log.i("going from Sto rooms","going from Sto rooms");
                 intent.putExtra("Building_Number", bldgno);
+                intent.putExtra("uname", uname1);
                 //intent.putExtra("");
                 startActivity(intent);
             }
         });
 
-
+        //when the user books a seat
         btnseat = (Button)findViewById(R.id.btnseat);
 
         btnseat.setOnClickListener(new View.OnClickListener() {
@@ -109,6 +113,9 @@ public class selection extends Activity {
                 startActivity(newIntent);
             }
         });
+
+
+        //when the user wants to send an sms
         btnsms= (Button)findViewById(R.id.btnsms);
 
         btnsms.setOnClickListener(new View.OnClickListener() {
@@ -119,6 +126,8 @@ public class selection extends Activity {
             }
         });
 
+
+        //when the user wants to send an mms
         btnmms= (Button)findViewById(R.id.btnmms);
         btnmms.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,6 +137,9 @@ public class selection extends Activity {
             }
         });
     }
+
+
+    //calculates distance in mils from latitude and longitude coordinates
     public float getDistanceInMiles(double latitude , double longitude) {
         double lat1 = ((double)37.4109937) / 1e6;
         double lng1 = ((double)-122.0604528) / 1e6;

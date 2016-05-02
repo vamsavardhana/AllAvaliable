@@ -16,7 +16,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date: 23rd March 2016 23:18 p.m."
         android:id="@+id/bookingTime"
         android:textSize="17dp"
         android:layout_below="@+id/Titile"
@@ -26,44 +25,11 @@
     <TextView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="You have successfully booked the room:"
         android:id="@+id/bookingInfoTitle"
         android:layout_below="@+id/bookingTime"
         android:layout_marginTop="30dp"
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"/>
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorAccent"
-        android:hint="For example: Room 129A"
-        android:id="@+id/roomInfo"
-        android:layout_below="@+id/bookingTime"
-        android:layout_marginTop="5dp"
-        android:textSize="20sp"
-        android:layout_gravity="center_horizontal"/>
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="At time slot:"
-        android:id="@+id/timeSlotTitle"
-        android:layout_below="@+id/bookingTime"
-        android:layout_marginTop="5dp"
-        android:textSize="18sp"
-        android:layout_gravity="center_horizontal"/>
-    <TextView
-        android:layout_width="300dp"
-        android:textColor="@color/colorAccent"
-        android:layout_height="wrap_content"
-        android:hint="For example: 1:00 Pm to 3:00 Pm"
-        android:id="@+id/time"
-        android:layout_below="@+id/bookingTime"
-        android:layout_marginTop="5dp"
-        android:textSize="20sp"
-        android:layout_gravity="center_horizontal"/>
-
-    Do you want to logout or return?
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -71,16 +37,6 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center_horizontal">
 
-        <Button
-            android:id="@+id/returnButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Return" android:textColor="#000"
-            android:gravity="center"
-            android:layout_gravity="center_vertical"
-            android:paddingRight="1dp"
-            />
 
         <Button
             android:id="@+id/logoutButton"

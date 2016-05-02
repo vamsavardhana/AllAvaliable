@@ -20,6 +20,7 @@ import edu.cmu.nsompura.allavailable.R;
 public class login extends AppCompatActivity {
     EditText username, password;boolean flag=true;
     Button login,signup;
+    static String usern;
     String user_name;
     String pass_word;
     static String doubledValue="0";
@@ -55,7 +56,7 @@ public class login extends AppCompatActivity {
                     Log.i("URL","URL");
                     URLConnection connection = url.openConnection();
                     Log.i("Connection","Connection");
-                    String usern = username.getText().toString();
+                    usern = username.getText().toString();
                     String passw=password.getText().toString();
                     String inputString="login:uname:"+usern+";pword:"+passw;
                     Log.i("InputString", inputString);
@@ -71,7 +72,7 @@ public class login extends AppCompatActivity {
                     BufferedReader buff=new BufferedReader(in);
                     Log.i("buff","buff");
                     String returnString="";
-
+                    Log.i("USERN",usern);
                     while ((returnString = buff.readLine()) != null)
                     {
                         doubledValue= returnString;
@@ -111,8 +112,11 @@ public class login extends AppCompatActivity {
                 else if (doubledValue.contains("ptrue"))
                 {
                         Log.i("inside ptrue","inside ptrue");
-                        Intent myIntent = new Intent(login.this,selection.class);
-                        startActivity(myIntent);
+                    Log.i("username",usern);
+                    Intent myIntent = new Intent(login.this,selection.class);
+
+                    myIntent.putExtra("uname", usern);
+                    startActivity(myIntent);
                         break;
                 }
                 else if(doubledValue.contains("pfalse"))
@@ -133,7 +137,7 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Log.i("OUT","OUT");
+                Log.i("OUT", "OUT");
                 Intent myIntent = new Intent("android.intent.action.SIGNUP");
                 startActivity(myIntent);
 

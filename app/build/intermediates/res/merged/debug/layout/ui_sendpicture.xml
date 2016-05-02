@@ -26,5 +26,5 @@
         android:id="@+id/clickapicture"
         android:layout_height="50dp"
         android:hint="Click a Picture!"/>
-    
+
 </LinearLayout>

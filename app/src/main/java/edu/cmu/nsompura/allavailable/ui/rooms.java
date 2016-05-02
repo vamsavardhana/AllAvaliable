@@ -33,10 +33,17 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
     String room;
     Button book;
     building bldg;
+    int buildingNumber;
+    static String doubledValue="0";
+    int flag=1;
+    static String uname;String uname1;
+    //String uname;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Bundle extras = getIntent().getExtras();
-        int buildingNumber= extras.getInt("Building_Number");
+        buildingNumber= extras.getInt("Building_Number");
+        uname1=extras.getString("uname");
+        Toast.makeText(getApplicationContext(),uname1, Toast.LENGTH_SHORT).show();
         bldg=new building(buildingNumber);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_rooms);
@@ -69,12 +76,13 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                             Log.i("URL","URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection","Connection");
+                            GLG = spinner.getSelectedItem().toString();
                             String inputString="conferenceroomstatus:"+GLG;
-                            Log.i("InputString",inputString);
+                            Log.i("InputString", inputString);
                             connection.setDoOutput(true);
                             Log.i("Connection.setDooutput","Connection.setdooutput");
                             OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
-                            Log.i("osw","osw");
+                            Log.i("osw", "osw");
                             out.write(inputString);
                             out.close();
                             Log.i("out.close","out.close");
@@ -83,7 +91,6 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                             BufferedReader buff=new BufferedReader(in);
                             Log.i("buff","buff");
                             String returnString="";
-                            String doubledValue="0";
                             while ((returnString = buff.readLine()) != null)
                             {
                                 doubledValue= returnString;
@@ -91,19 +98,6 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                             Log.i("DoubledValue",doubledValue);
                             in.close();
                             buff.close();
-                            if(doubledValue.contains("ufalse"))
-                            {
-                                Toast.makeText(getApplicationContext(), "The username and password are wrong", Toast.LENGTH_SHORT);
-                            }
-                            else if (doubledValue.contains("utrue"))
-                            {
-                                Intent myIntent = new Intent("android.intent.action.SIGNUP");
-                                startActivity(myIntent);
-                            }
-                            else
-                            {
-                                Log.i("NOT WORKING","NOT WORKING");
-                            }
 
                         }catch(Exception e)
                         {
@@ -111,20 +105,31 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                         }
 
                     }});thread.start();
+                while(flag==1)
+                {
+                    if(doubledValue!="0")
+                    {
+
+                        Intent myIntent = new Intent(rooms.this,roomUI.class);
+                        Log.i("GLG VALUE IS ", GLG);
+                        myIntent.putExtra("Building_Number", buildingNumber);
+                        myIntent.putExtra("roomid",GLG);
+                        myIntent.putExtra("roomstatuses",doubledValue);
+                        myIntent.putExtra("uname",uname1);
+                        startActivity(myIntent);
+                        break;
+                    }
+
+                }
                 Log.i("OUT","OUT");}});
 
-
-        Intent myIntent = new Intent("android.intent.action.ROOMCONTROLLER");
-                myIntent.putExtra("Building_Number",bldg.getBuildingNumber());
-                startActivity(myIntent);
-            }
+     }
 
     public void onItemSelected(AdapterView<?> parent, View view,
                                int pos, long id) {
         // An item was selected. You can retrieve the selected item using
         // parent.getItemAtPosition(pos)
         room = (String)parent.getItemAtPosition(pos);
-        GLG=room;
 
     }
 

@@ -15,7 +15,11 @@ public class room {
     List<user> friends=new ArrayList<user>();
 
     //Room Details
-    int roomno;String roomName;String roomStatus;
+    int roomno;String roomName;
+    static String TS1roomStatus="Available";
+    static String TS2roomStatus="Not Available";
+    static String TS3roomStatus="Available";
+    static String TS4roomStatus="Not Available";
     //Timeslots are ten in no. Morning 8to9,to10,10to11,11to12,12to1
     public static boolean[] ts=new boolean[5];
 
@@ -90,9 +94,45 @@ public class room {
         return str;
         }
 
-    public void setRoomStatus(String status)
+
+    //Timeslot 1 room status
+    public void setTS1RoomStatus(String status)
     {
-        this.roomStatus=status;
+        this.TS1roomStatus=status;
+    }
+    public String getTS1RoomStatus()
+    {
+        return this.TS1roomStatus;
+    }
+
+    //Timeslot 2 room status
+    public void setTS2RoomStatus(String status)
+    {
+        this.TS2roomStatus=status;
+    }
+    public String getTS2RoomStatus()
+    {
+        return this.TS2roomStatus;
+    }
+
+    //Timeslot 3 room status
+    public void setTS3RoomStatus(String status)
+    {
+        this.TS3roomStatus=status;
+    }
+    public String getTS3RoomStatus()
+    {
+        return this.TS3roomStatus;
+    }
+
+    //Timeslot 1 room status
+    public void setTS4RoomStatus(String status)
+    {
+        this.TS4roomStatus=status;
+    }
+    public String getTS4RoomStatus()
+    {
+        return this.TS4roomStatus;
     }
 
     //Updates Room Resources status whether they are working or not after repair activities
