@@ -79,10 +79,8 @@ public class roomUI extends AppCompatActivity {
         //if doubledvalues diff parts represent timeslots if they aren't 'available' disable the buttons
         if(!brkdown1[1].contains("available"))
         {
-
-            View b = findViewById(22);;
+            View b = b.findViewWithTag("btn1");;
             b.setVisibility(View.GONE);
-
         }
 
         //get the details from the server
@@ -295,23 +293,32 @@ public class roomUI extends AppCompatActivity {
                         btn.setId(x + 2);
                         if(k==0)
                         {
-
+                            String str="btn1";
+                        btn.setTag(str);
+                            Log.i("Button 1 tag", str);
                         }
                         else if(k==1)
                         {
-
+                            String str="btn2";
+                            btn.setTag(str);
+                            Log.i("Button 2 tag", str);
                         }
                         else if(k==2)
                         {
-
+                            String str="btn3";
+                            btn.setTag(str);
+                            Log.i("Button 3 tag", str);
                         }
                         else if (k==3)
                         {
-
+                            String str="btn4";
+                            btn.setTag(str);
+                            Log.i("Button 4 tag", str);
                         }
                         else
                         {
-
+                            String str="NO BUTTON TAGGED";
+                            Log.i("Button 1 tag", str);
                         }
                         Log.i("Add button to view", "Add button to view");
                         tr_head.addView(btn);
