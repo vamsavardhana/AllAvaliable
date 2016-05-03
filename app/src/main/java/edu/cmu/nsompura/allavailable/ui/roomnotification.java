@@ -60,14 +60,20 @@ public class roomnotification extends AppCompatActivity {
         final Button buttonReturn = (Button) findViewById(R.id.returnButton);
         final Button buttonLogout = (Button) findViewById(R.id.logoutButton);
 
-        if(buttonReturn != null && buttonLogout != null){
+//        if(buttonReturn != null && buttonLogout != null){
 
+//        buttonReturn.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent myIntent = new Intent(roomnotification.this, selection.class);
+//                startActivity(myIntent);
+//            }
+//        });
             buttonLogout.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     Intent myIntent = new Intent(roomnotification.this, login.class);
                     startActivity(myIntent);
                 }
             });
-        }
+//        }
     }
 }

@@ -44,6 +44,7 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
         buildingNumber= extras.getInt("Building_Number");
         uname1=extras.getString("uname");
         Toast.makeText(getApplicationContext(),uname1, Toast.LENGTH_SHORT).show();
+        Log.i("in rooms act bldgno is",buildingNumber+"");
         bldg=new building(buildingNumber);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_rooms);
@@ -124,6 +125,34 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                 Log.i("OUT","OUT");}});
 
      }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent intent){
+        super.onActivityResult(requestCode, resultCode, intent);
+        Log.i("RESULT CODE",resultCode+"!!"+requestCode);
+        if(resultCode==0)
+        {
+            finish();
+        }
+        else
+        {
+
+        }
+    }
 
     public void onItemSelected(AdapterView<?> parent, View view,
                                int pos, long id) {
