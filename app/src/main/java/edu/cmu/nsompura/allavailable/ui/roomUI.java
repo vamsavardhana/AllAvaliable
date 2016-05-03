@@ -37,8 +37,8 @@ public class roomUI extends AppCompatActivity {
 
     String uname;
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.ui_room);
+
+        //Bundle from previous activity
         Bundle extras = getIntent().getExtras();
         buildingNumber= extras.getInt("Building_Number");
         String roomstatuses=extras.getString("roomstatuses");
@@ -59,6 +59,84 @@ public class roomUI extends AppCompatActivity {
             }
             i=i+1;
         }
+
+        //split doubledValue
+        StringTokenizer st2 = new StringTokenizer(doubledValue, token);
+        String brkdown1[]=new String[8];
+        int j=0;
+        final String roomidstring1= st2.nextToken();
+        while(st2.hasMoreTokens())
+        {
+            brkdown1[i]=st2.nextToken();
+            Log.i("brkdown1values are", brkdown1[i]+"  "+i+ "done");
+            if(brkdown1[i]=="avaliable")
+            {
+                brkdown1[i]="Available";
+            }
+            i=i+1;
+        }
+
+        //if doubledvalues diff parts represent timeslots if they aren't 'available' disable the buttons
+        if(!brkdown1[1].contains("available"))
+        {
+
+            View b = findViewById(22);;
+            b.setVisibility(View.GONE);
+
+        }
+
+        //get the details from the server
+        Thread thread = new Thread(new Runnable()
+        {
+            private login parent;
+            @Override
+            public void run()
+            {
+
+                try{
+                    URL url = new URL("http://172.29.92.114:8080/ServerForAllAvaliable/AllAvaliableServer");
+                    Log.i("URL","URL");
+                    URLConnection connection = url.openConnection();
+                    Log.i("Connection","Connection");
+                    GLG = roomidstring;
+                    String inputString="conferenceroomstatus:"+GLG;
+                    Log.i("InputString", inputString);
+                    connection.setDoOutput(true);
+                    Log.i("Connection.setDooutput","Connection.setdooutput");
+                    OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
+                    Log.i("osw", "osw");
+                    out.write(inputString);
+                    out.close();
+                    Log.i("out.close","out.close");
+                    InputStreamReader in = new InputStreamReader(connection.getInputStream());
+                    Log.i("isr","isr");
+                    BufferedReader buff=new BufferedReader(in);
+                    Log.i("buff","buff");
+                    String returnString="";
+                    while ((returnString = buff.readLine()) != null)
+                    {
+                        doubledValue= returnString;
+                    }
+                    Log.i("DoubledValue",doubledValue);
+                    in.close();
+                    buff.close();
+                }catch(Exception e)
+                {
+                    Log.d("Exception",e.toString());
+                }
+
+            }});thread.start();
+        while(flag==1) {
+            if (doubledValue != "0") {
+            break;
+            }
+        }
+        //Now string doubledValue contains the text
+
+
+        //Set the content view
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ui_room);
         switch(roomidstring)
         {
             case "Room 129A":
@@ -133,7 +211,8 @@ public class roomUI extends AppCompatActivity {
             {
                 label_column1.setText("1:00-2:00");
             }
-            else{label_column1.setText("NOT WORKING");}
+            else
+            {label_column1.setText("NOT WORKING");}
             label_column1.setTextColor(Color.BLACK);
             label_column1.setPadding(5, 5, 5, 5);
             tr_head.addView(label_column1);
@@ -147,9 +226,11 @@ public class roomUI extends AppCompatActivity {
                 label_column2.setText(bldg.rooms.get(roomid).getTS1RoomStatus());
                 if (bldg.rooms.get(roomid).getRoomStatus() == "Room Available") {
                     label_column2.setTextColor(Color.GREEN);
-                } else if (bldg.rooms.get(roomid).getRoomStatus() == "Room Unavailable") {
+                }
+                else if (bldg.rooms.get(roomid).getRoomStatus() == "Room Unavailable") {
                     label_column2.setTextColor(Color.RED);
-                } else {
+                }
+                else {
                     label_column2.setTextColor(Color.BLACK);
                 }
                 label_column2.setPadding(5, 5, 5, 5);
@@ -204,6 +285,7 @@ public class roomUI extends AppCompatActivity {
 
 
             //Third column
+
             Log.i("LABEL2COLUMN STATUS","!!"+label_column2.getText()+"!!"+getty+"!!");
                     if(getty.contains("available")) {
                         Log.i("Here lies a button", "Here lies a button");
@@ -211,8 +293,29 @@ public class roomUI extends AppCompatActivity {
                         btn.setText("Book now!!");
                         Log.i("Set button text", "Set button text");
                         btn.setId(x + 2);
+                        if(k==0)
+                        {
+
+                        }
+                        else if(k==1)
+                        {
+
+                        }
+                        else if(k==2)
+                        {
+
+                        }
+                        else if (k==3)
+                        {
+
+                        }
+                        else
+                        {
+
+                        }
                         Log.i("Add button to view", "Add button to view");
                         tr_head.addView(btn);
+
 
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -314,6 +417,10 @@ public class roomUI extends AppCompatActivity {
         }
         table.requestLayout();
         }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 
     }
 

@@ -109,8 +109,10 @@ public class selection extends Activity {
         btnseat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent newIntent = new Intent(selection.this, seatsroom.class);
-                startActivity(newIntent);
+                Intent intent123 = new Intent(selection.this, seatsroom.class);
+                intent123.putExtra("Building_Number", bldgno);
+                intent123.putExtra("uname", uname1);
+                startActivity(intent123);
             }
         });
 

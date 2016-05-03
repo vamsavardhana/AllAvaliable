@@ -124,12 +124,12 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                 }
                 Log.i("OUT","OUT");}});
 
-     }
+    }
 
     @Override
     protected void onPause() {
         super.onPause();
-    }
+        }
 
     @Override
     protected void onResume() {

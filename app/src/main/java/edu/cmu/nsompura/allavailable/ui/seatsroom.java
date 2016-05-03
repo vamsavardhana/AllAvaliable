@@ -27,9 +27,12 @@ import edu.cmu.nsompura.allavailable.models.studyroom;
 public class seatsroom extends Activity {
     Spinner spinner;
     Button btn;
-    String doubledValue="0";String GLG="0";int flag=1;
+    String doubledValue="0";String GLG="0";int flag=1;int buildingNumber;String uname1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Bundle extras = getIntent().getExtras();
+        buildingNumber= extras.getInt("Building_Number");
+        uname1=extras.getString("uname");
         building bldg=new building(23);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_seat);
@@ -61,7 +64,7 @@ public class seatsroom extends Activity {
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
                             GLG = spinner.getSelectedItem().toString();
-                            String inputString = "conferenceroomstatus:" + GLG;
+                            String inputString = "studyroomstatus:" + GLG;
                             Log.i("InputString", inputString);
                             connection.setDoOutput(true);
                             Log.i("Connection.setDooutput", "Connection.setdooutput");
@@ -94,10 +97,10 @@ public class seatsroom extends Activity {
 
                         Intent myIntent = new Intent(seatsroom.this, seatsbook.class);
                         Log.i("GLG VALUE IS ", GLG);
-//                        myIntent.putExtra("Building_Number", buildingNumber);
-//                        myIntent.putExtra("roomid", GLG);
-//                        myIntent.putExtra("roomstatuses", doubledValue);
-//                        myIntent.putExtra("uname", uname1);
+                        myIntent.putExtra("Building_Number", buildingNumber);
+                        myIntent.putExtra("roomid", GLG);
+                        myIntent.putExtra("seatstatuses", doubledValue);
+                        myIntent.putExtra("uname", uname1);
                         startActivity(myIntent);
                         break;
                     }

@@ -60,6 +60,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.seatsroom" />
+        <activity android:name="edu.cmu.nsompura.allavailable.ui.seatsbook" />
         <activity android:name="edu.cmu.nsompura.allavailable.ui.signup" >
             <intent-filter>
                 <action android:name="android.intent.action.SIGNUP" />
