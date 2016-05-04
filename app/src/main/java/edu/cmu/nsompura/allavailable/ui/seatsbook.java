@@ -338,9 +338,13 @@ public class seatsbook extends Activity {
 
             }
         });
+        Log.i("Step","Step1");
         thread.start();
         while (flag == 1) {
-            if (!doubledValue.contentEquals("0")) {
+            Log.i("Step2","Step2");
+            Log.i("DOUBLEDDOUBLEDVALUE",doubledValue);
+            if (!doubledValue.contains("0")) {
+                Log.i("Step3","Step3");
                 break;
             }
         }
@@ -381,6 +385,7 @@ public class seatsbook extends Activity {
         btn15 = (Button) findViewById(R.id.ui_seatui_btn15);
         btn16 = (Button) findViewById(R.id.ui_seatui_btn16);
         super.onResume();
+
         //Make buttons disappear if the slot is booked
         if (!arr[2].contains("available")) {
             View b = findViewById(R.id.ui_seatui_btn1);
