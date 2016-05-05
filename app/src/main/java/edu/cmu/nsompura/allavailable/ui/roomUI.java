@@ -61,7 +61,7 @@ public class roomUI extends AppCompatActivity {
             }
             i=i+1;
         }
-
+        GLG=roomidstring;
         //get the details from the server
         Thread thread = new Thread(new Runnable()
         {
@@ -75,9 +75,8 @@ public class roomUI extends AppCompatActivity {
                     Log.i("URL","URL");
                     URLConnection connection = url.openConnection();
                     Log.i("Connection","Connection");
-                    GLG = roomidstring;
                     String inputString="conferenceroomstatus:"+GLG;
-                    Log.i("InputString", inputString);
+                    Log.i("InputString122", inputString);
                     connection.setDoOutput(true);
                     Log.i("Connection.setDooutput","Connection.setdooutput");
                     OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
@@ -104,7 +103,7 @@ public class roomUI extends AppCompatActivity {
 
             }});thread.start();
         while(flag==1) {
-            if (doubledValue != "0000") {
+            if (!doubledValue.contentEquals( "0000")) {
                 break;
             }
         }
@@ -127,30 +126,6 @@ public class roomUI extends AppCompatActivity {
 
         //if doubledvalues diff parts represent timeslots if they aren't 'available' disable the buttons
         Log.i("Breakdownof brkdown1",brkdown1[0]+brkdown1[1]+brkdown1[2]+brkdown1[3]+brkdown1[4]+brkdown1[5]+brkdown1[6]+brkdown1[7]);
-//        if(!brkdown1[1].contains("available"))
-//        {
-//            Log.i("Checking whether gone",brkdown1[1]);
-//            View b = (View)btn.findViewWithTag("btn1");;
-//            b.setVisibility(View.GONE);
-//        }
-//        if(!brkdown1[3].contains("available"))
-//        {
-//            Log.i("Checking whether gone",brkdown1[3]);
-//            View b = btn.findViewWithTag("btn1");;
-//            b.setVisibility(View.GONE);
-//        }
-//        if(!brkdown1[5].contains("available"))
-//        {
-//            Log.i("Checking whether gone",brkdown1[5]);
-//            View b = btn.findViewWithTag("btn1");;
-//            b.setVisibility(View.GONE);
-//        }
-//        if(!brkdown1[7].contains("available"))
-//        {
-//            Log.i("Checking whether gone",brkdown1[7]);
-//            View b = btn.findViewWithTag("btn1");;
-//            b.setVisibility(View.GONE);
-//        }
 
 
         //Now string doubledValue contains the text
@@ -245,8 +220,8 @@ public class roomUI extends AppCompatActivity {
             if(k==0) {
                 label_column21= new TextView(this);
                 label_column21.setId(x + 1);
-                getty=bldg.rooms.get(roomid).getTS1RoomStatus();
-                label_column21.setText(bldg.rooms.get(roomid).getTS1RoomStatus());
+                getty=brkdown[1];
+                label_column21.setText(brkdown[1]);
                 if (bldg.rooms.get(roomid).getRoomStatus() == "Room Available") {
                     label_column21.setTextColor(Color.GREEN);
                 }
@@ -263,8 +238,8 @@ public class roomUI extends AppCompatActivity {
             {
                 label_column22= new TextView(this);
                 label_column22.setId(x + 1);
-                getty=bldg.rooms.get(roomid).getTS2RoomStatus();
-                label_column22.setText(bldg.rooms.get(roomid).getTS2RoomStatus());
+                getty=brkdown[3];
+                label_column22.setText(brkdown[3]);
                 if (bldg.rooms.get(roomid).getRoomStatus() == "Room Available") {
                     label_column22.setTextColor(Color.GREEN);
                 } else if (bldg.rooms.get(roomid).getRoomStatus() == "Room Unavailable") {
@@ -279,8 +254,8 @@ public class roomUI extends AppCompatActivity {
             {
                 label_column23= new TextView(this);
                 label_column23.setId(x + 1);
-                getty=bldg.rooms.get(roomid).getTS3RoomStatus();
-                label_column23.setText(bldg.rooms.get(roomid).getTS3RoomStatus());
+                getty=brkdown[5];
+                label_column23.setText(brkdown[5]);
                 if (bldg.rooms.get(roomid).getRoomStatus() == "Room Available") {
                     label_column23.setTextColor(Color.GREEN);
                 } else if (bldg.rooms.get(roomid).getRoomStatus() == "Room Unavailable") {
@@ -295,8 +270,8 @@ public class roomUI extends AppCompatActivity {
             {
                 label_column24= new TextView(this);
                 label_column24.setId(x + 1);
-                getty=bldg.rooms.get(roomid).getTS4RoomStatus();
-                label_column24.setText(bldg.rooms.get(roomid).getTS4RoomStatus());
+                getty=brkdown[7];
+                label_column24.setText(brkdown[7]);
                 if (bldg.rooms.get(roomid).getRoomStatus() == "Room Available") {
                     label_column24.setTextColor(Color.GREEN);
                 } else if (bldg.rooms.get(roomid).getRoomStatus() == "Room Unavailable") {
@@ -314,109 +289,155 @@ public class roomUI extends AppCompatActivity {
 
 
             //Third column
-
+Log.i("WORKING TONITE",brkdown1[1]+"!!"+brkdown1[3]+"!!"+brkdown1[5]+"!!"+brkdown1[7]);
                     if(getty.contains("available")) {
                         Log.i("Here lies a button", "Here lies a button");
                         btn = new Button(this);
                         btn.setText("Book now!!");
                         Log.i("Set button text", "Set button text");
                         btn.setId(x + 2);
+
+
+                        //make the button invisible if brkdown1[1,3,5,7] contains anything other than available
+                        if ((k==0)&&!brkdown1[1].matches("available")) {
+                            Log.i("I COMEThE MOUNTAin1", "I COMEThE MOUNTAin1");
+                            View v = btn.findViewById(btn.getId());
+                            v.setVisibility(View.INVISIBLE);
+                            label_column21.setText(uname);
+                        }
+                        else
+                        {
+                            Log.i("ICAREABOUT THE MONEY","ICAREABOUT THE MONEY");
+                        }
+                        if((k==1)&&!brkdown1[3].matches("available"))
+                        {
+                            Log.i("I COMEThE MOUNTAin1", "I COMEThE MOUNTAin1");
+                            View v=btn.findViewById(btn.getId());
+                            v.setVisibility(View.INVISIBLE);
+                            label_column22.setText(uname);
+                        }
+                        else
+                        {
+                            Log.i("ICAREABOUT THE MONEY1","ICAREABOUT THE MONEY1");
+                        }
+                        if((k==2)&&!brkdown1[5].contentEquals("available"))
+                        {
+                            Log.i("I COMEThE MOUNTAin1", "I COMEThE MOUNTAin1");
+                            View v=btn.findViewById(btn.getId());
+                            v.setVisibility(View.INVISIBLE);
+                            label_column23.setText(uname);
+                        }
+                        else
+                        {
+                            Log.i("ICAREABOUT THE MONEY1","ICAREABOUT THE MONEY1");
+                        }
+                        if((k==3)&&!brkdown1[7].contentEquals("available"))
+                        {
+                            Log.i("I COMEThE MOUNTAin1", "I COMEThE MOUNTAin1");
+                            View v=btn.findViewById(btn.getId());
+                            v.setVisibility(View.INVISIBLE);
+                            label_column24.setText(uname);
+                        }
+                        else
+                        {
+                            Log.i("Nidhish ","Nidhish ");
+                        }
+
                         Log.i("Add button to view", "Add button to view");
                         tr_head.addView(btn);
                         btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Log.i("BTN.getId", btn.getId() + "!!" + v.getId());
-                    if ((int) v.getId() == 22) {
-                        ts = "timeslot1";
-                        Log.i("Checking whether gone", brkdown1[1]);
-                        label_column21.setText(uname);
-                        v.setVisibility(View.GONE);
+                            @Override
+                            public void onClick(View v) {
+                                Log.i("BTN.getId", btn.getId() + "!!" + v.getId());
+                                if ((int) v.getId() == 22) {
+                                    ts = "timeslot1";
+                                    Log.i("Checking whether gone", brkdown1[1]);
+                                    label_column21.setText(uname);
+                                    v.setVisibility(View.INVISIBLE);
 
 
-                    } else if ((int) v.getId() == 32) {
-                        ts = "timeslot2";
-                        label_column22.setText(uname);
-                        Log.i("Checking whether gone", brkdown1[1]);
-                        v.setVisibility(View.GONE);
+                                } else if ((int) v.getId() == 32) {
+                                    ts = "timeslot2";
+                                    label_column22.setText(uname);
+                                    Log.i("Checking whether gone", brkdown1[1]);
+                                    v.setVisibility(View.INVISIBLE);
 
-                    } else if ((int) v.getId() == 42) {
-                        ts = "timeslot3";
-                        label_column23.setText(uname);
-                        Log.i("Checking whether gone", brkdown1[1]);
-                        v.setVisibility(View.GONE);
-                    } else if ((int) v.getId() == 52) {
-                        ts = "timeslot4";
-                        label_column24.setText(uname);
-                        Log.i("Checking whether gone", brkdown1[1]);
-                        v.setVisibility(View.GONE);
-                    } else {
+                                } else if ((int) v.getId() == 42) {
+                                    ts = "timeslot3";
+                                    label_column23.setText(uname);
+                                    Log.i("Checking whether gone", brkdown1[1]);
+                                    v.setVisibility(View.INVISIBLE);
+                                } else if ((int) v.getId() == 52) {
+                                    ts = "timeslot4";
+                                    label_column24.setText(uname);
+                                    Log.i("Checking whether gone", brkdown1[1]);
+                                    v.setVisibility(View.INVISIBLE);
+                                } else {
 
-                    }
+                                }
 
 
+                                Thread thread = new Thread(new Runnable() {
+                                    private login parent;
 
-                Thread thread = new Thread(new Runnable() {
-                    private login parent;
+                                    @Override
+                                    public void run() {
 
-                    @Override
-                    public void run() {
+                                        try {
+                                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                                            Log.i("URL", "URL");
+                                            URLConnection connection = url.openConnection();
+                                            Log.i("Connection", "Connection");
+                                            GLG =roomidstring ;//bookroom: xxx(roomid);xxx( timeslot);xxx(uname
+                                            String inputString = "bookroom:" + roomidstring + ";" + ts + ";" + uname;
+                                            Log.i("InputString", inputString);
+                                            connection.setDoOutput(true);
+                                            Log.i("Connection.setDooutput", "Connection.setdooutput");
+                                            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
+                                            Log.i("osw", "osw");
+                                            out.write(inputString);
+                                            out.close();
+                                            Log.i("out.close", "out.close");
+                                            InputStreamReader in = new InputStreamReader(connection.getInputStream());
+                                            Log.i("isr", "isr");
+                                            BufferedReader buff = new BufferedReader(in);
+                                            Log.i("buff", "buff");
+                                            String returnString = "";
+                                            while ((returnString = buff.readLine()) != null) {
+                                                doubledValue = returnString;
+                                            }
+                                            Log.i("DoubledValue", doubledValue);
+                                            in.close();
+                                            buff.close();
 
-                        try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
-                            Log.i("URL", "URL");
-                            URLConnection connection = url.openConnection();
-                            Log.i("Connection", "Connection");
-                            GLG = "129a";//bookroom: xxx(roomid);xxx( timeslot);xxx(uname
-                            String inputString = "bookroom:" + roomidstring + ";" + ts + ";" + uname;
-                            Log.i("InputString", inputString);
-                            connection.setDoOutput(true);
-                            Log.i("Connection.setDooutput", "Connection.setdooutput");
-                            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
-                            Log.i("osw", "osw");
-                            out.write(inputString);
-                            out.close();
-                            Log.i("out.close", "out.close");
-                            InputStreamReader in = new InputStreamReader(connection.getInputStream());
-                            Log.i("isr", "isr");
-                            BufferedReader buff = new BufferedReader(in);
-                            Log.i("buff", "buff");
-                            String returnString = "";
-                            while ((returnString = buff.readLine()) != null) {
-                                doubledValue = returnString;
+                                        } catch (Exception e) {
+                                            Log.d("Exception", e.toString());
+                                        }
+
+                                    }
+                                });
+                                thread.start();
+                                while (flag == 1)
+
+                                {
+                                    if (doubledValue.contains("true")) {
+                                        Intent myIntent = new Intent(roomUI.this, roomnotification.class);
+                                        myIntent.putExtra("Building_Number", buildingNumber);
+                                        myIntent.putExtra("roomid", roomidstring);
+                                        myIntent.putExtra("roomstatuses", doubledValue);
+                                        myIntent.putExtra("uname", uname);
+                                        myIntent.putExtra("timeslot", ts);
+                                        startActivity(myIntent);
+                                        break;
+                                    } else if (doubledValue.contains("false")) {
+                                        Toast.makeText(getApplicationContext(), "The room cannot be booked currently", Toast.LENGTH_SHORT).show();
+                                        break;
+                                    } else {
+                                    }
+                                }
+
                             }
-                            Log.i("DoubledValue", doubledValue);
-                            in.close();
-                            buff.close();
-
-                        } catch (Exception e) {
-                            Log.d("Exception", e.toString());
-                        }
-
-                    }
-                });
-                thread.start();
-                while(flag==1)
-
-                {
-                    if (doubledValue.contains("true")) {
-                        Intent myIntent = new Intent(roomUI.this, roomnotification.class);
-                        myIntent.putExtra("Building_Number", buildingNumber);
-                        myIntent.putExtra("roomid", roomidstring);
-                        myIntent.putExtra("roomstatuses", doubledValue);
-                        myIntent.putExtra("uname", uname);
-                        myIntent.putExtra("timeslot", ts);
-                        startActivity(myIntent);
-                        break;
-                    } else if (doubledValue.contains("false")) {
-                        Toast.makeText(getApplicationContext(), "The room cannot be booked currently", Toast.LENGTH_SHORT).show();
-                        break;
-                    } else {
-                    }
-                }
-
-            }
-                    });}
+                        });}
             else
             {
                         TextView label_column3= new TextView(this);
@@ -427,7 +448,9 @@ public class roomUI extends AppCompatActivity {
             table.addView(tr_head);
         }
         table.requestLayout();
-        }
+
+
+    }
     @Override
     protected void onDestroy() {
         super.onDestroy();

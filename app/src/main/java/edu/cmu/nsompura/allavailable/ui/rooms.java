@@ -96,7 +96,7 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                             {
                                 doubledValue= returnString;
                             }
-                            Log.i("DoubledValue",doubledValue);
+                            Log.i("DoubledValue1121",doubledValue);
                             in.close();
                             buff.close();
 
@@ -112,7 +112,9 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                     {
 
                         Intent myIntent = new Intent(rooms.this,roomUI.class);
+                        GLG=spinner.getSelectedItem().toString();
                         Log.i("GLG VALUE IS ", GLG);
+
                         myIntent.putExtra("Building_Number", buildingNumber);
                         myIntent.putExtra("roomid",GLG);
                         myIntent.putExtra("roomstatuses",doubledValue);
@@ -133,6 +135,7 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
 
     @Override
     protected void onResume() {
+        GLG=spinner.getSelectedItem().toString();
         super.onResume();
     }
 

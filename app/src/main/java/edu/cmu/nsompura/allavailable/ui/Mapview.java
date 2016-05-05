@@ -43,14 +43,14 @@ public class Mapview extends Fragment {
         Log.i("Inside mapview", "Inside mapview");
 
         // Gets the MapView from the XML layout and creates it
-//        mapView = (MapView) v.findViewById(R.id.mapview1);
-//        Log.i("find mapview", "find mapview");
-//        mapView.onCreate(savedInstanceState);
-//        Log.i("mapview created","mapview created");
-//        // Gets to GoogleMap from the MapView and does initialization stuff
-//        map = mapView.getMap();
-//        Log.i("gets map", "gets map");
-//        map.getUiSettings().setMyLocationButtonEnabled(false);
+        mapView = (MapView) v.findViewById(R.id.mapview1);
+        Log.i("find mapview", "find mapview");
+        mapView.onCreate(savedInstanceState);
+        Log.i("mapview created","mapview created");
+        // Gets to GoogleMap from the MapView and does initialization stuff
+        map = mapView.getMap();
+        Log.i("gets map", "gets map");
+        map.getUiSettings().setMyLocationButtonEnabled(false);
         Log.i("disableslocationenbtn","disableslocationenbtn");
         if (ActivityCompat.checkSelfPermission(MyApp.getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MyApp.getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
@@ -63,7 +63,7 @@ public class Mapview extends Fragment {
 
         }
         Log.i("sets location enable","sets location enable");
-      //  map.setMyLocationEnabled(true);
+        map.setMyLocationEnabled(true);
 
         Log.i("initializes map","initializes map");
         // Needs to call MapsInitializer before doing any CameraUpdateFactory calls
@@ -76,7 +76,7 @@ public class Mapview extends Fragment {
         // Updates the location and zoom of the MapView
         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(37.4109937,-122.0604528), 18);
         Log.i("animatecamera","animatecamera");
-      //  map.animateCamera(cameraUpdate);
+        map.animateCamera(cameraUpdate);
 
         return v;
     }
