@@ -62,6 +62,9 @@ public class roomUI extends AppCompatActivity {
             i=i+1;
         }
         GLG=roomidstring;
+        Log.i("GLG VALUE11",GLG);
+
+
         //get the details from the server
         Thread thread = new Thread(new Runnable()
         {
@@ -76,6 +79,7 @@ public class roomUI extends AppCompatActivity {
                     URLConnection connection = url.openConnection();
                     Log.i("Connection","Connection");
                     String inputString="conferenceroomstatus:"+GLG;
+                    Log.i("GLG VALUE12",GLG);
                     Log.i("InputString122", inputString);
                     connection.setDoOutput(true);
                     Log.i("Connection.setDooutput","Connection.setdooutput");
@@ -388,8 +392,9 @@ Log.i("WORKING TONITE",brkdown1[1]+"!!"+brkdown1[3]+"!!"+brkdown1[5]+"!!"+brkdow
                                             Log.i("URL", "URL");
                                             URLConnection connection = url.openConnection();
                                             Log.i("Connection", "Connection");
-                                            GLG =roomidstring ;//bookroom: xxx(roomid);xxx( timeslot);xxx(uname
-                                            String inputString = "bookroom:" + roomidstring + ";" + ts + ";" + uname;
+                                            //GLG =roomidstring ;//bookroom: xxx(roomid);xxx( timeslot);xxx(uname
+                                            String inputString = "bookroom:" + GLG + ";" + ts + ";" + uname;
+                                            Log.i("GLG VALUE13",GLG);
                                             Log.i("InputString", inputString);
                                             connection.setDoOutput(true);
                                             Log.i("Connection.setDooutput", "Connection.setdooutput");
@@ -451,6 +456,52 @@ Log.i("WORKING TONITE",brkdown1[1]+"!!"+brkdown1[3]+"!!"+brkdown1[5]+"!!"+brkdow
 
 
     }
+
+
+    @Override
+    protected void onResume() {
+        Bundle extras = getIntent().getExtras();
+        buildingNumber= extras.getInt("Building_Number");
+        String roomstatuses=extras.getString("roomstatuses");
+        uname=extras.getString("uname");
+        String token = ":;";
+        StringTokenizer st1 = new StringTokenizer(roomstatuses, token);
+        Log.i("ROOM STATUSES ONRESUME",roomstatuses);
+        String brkdown[]=new String[8];
+        int i=0;
+        int roomid=0;
+        String roomidstring= st1.nextToken();
+        GLG=roomidstring;
+        Log.i("GLG VALUE14",GLG);
+        super.onResume();
+        Bundle extras1 = getIntent().getExtras();
+        buildingNumber= extras.getInt("Building_Number");
+        String roomstatuses1=extras.getString("roomstatuses");
+        uname=extras.getString("uname");
+        String token1 = ":;";
+        StringTokenizer st11 = new StringTokenizer(roomstatuses, token);
+        Log.i("ROOM STATUSES ONRESUME",roomstatuses);
+        String brkdown1[]=new String[8];
+        int i1=0;
+        int roomid1=0;
+        String roomidstring1= st1.nextToken();
+        GLG=roomidstring1;
+        Log.i("GLG VALUE15",GLG);
+
+    }
+    protected void onActivityResult(int requestCode, int resultCode, Intent intent){
+        super.onActivityResult(requestCode, resultCode, intent);
+        Log.i("RESULT CODE",resultCode+"!!"+requestCode);
+        if(resultCode==0)
+        {
+            finish();
+        }
+        else
+        {
+
+        }
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();

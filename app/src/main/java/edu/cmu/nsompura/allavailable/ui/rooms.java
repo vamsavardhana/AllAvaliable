@@ -78,8 +78,9 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                             URLConnection connection = url.openConnection();
                             Log.i("Connection","Connection");
                             GLG = spinner.getSelectedItem().toString();
+                            Log.i("GLG VALUE5",GLG);
                             String inputString="conferenceroomstatus:"+GLG;
-                            Log.i("InputString", inputString);
+                            Log.i("InputString11111", inputString);
                             connection.setDoOutput(true);
                             Log.i("Connection.setDooutput","Connection.setdooutput");
                             OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
@@ -113,7 +114,7 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
 
                         Intent myIntent = new Intent(rooms.this,roomUI.class);
                         GLG=spinner.getSelectedItem().toString();
-                        Log.i("GLG VALUE IS ", GLG);
+                        Log.i("GLG VALUE6", GLG);
 
                         myIntent.putExtra("Building_Number", buildingNumber);
                         myIntent.putExtra("roomid",GLG);
@@ -135,27 +136,34 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
 
     @Override
     protected void onResume() {
-        GLG=spinner.getSelectedItem().toString();
+//        GLG=spinner.getSelectedItem().toString();
+//        Log.i("GLG VALUE1",GLG);
         super.onResume();
+//        GLG = spinner.getSelectedItem().toString();
+//        Log.i("GLG VALUE2",GLG);
     }
 
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-    }
+//    @Override
+//    protected void onRestart() {
+//        GLG = spinner.getSelectedItem().toString();
+//        Log.i("GLG VALUE3",GLG);
+//        super.onRestart();
+//        GLG = spinner.getSelectedItem().toString();
+//        Log.i("GLG VALUE4",GLG);
+//    }
 
-    protected void onActivityResult(int requestCode, int resultCode, Intent intent){
-        super.onActivityResult(requestCode, resultCode, intent);
-        Log.i("RESULT CODE",resultCode+"!!"+requestCode);
-        if(resultCode==0)
-        {
-            finish();
-        }
-        else
-        {
-
-        }
-    }
+//    protected void onActivityResult(int requestCode, int resultCode, Intent intent){
+//        super.onActivityResult(requestCode, resultCode, intent);
+//        Log.i("RESULT CODE",resultCode+"!!"+requestCode);
+//        if(resultCode==0)
+//        {
+//            finish();
+//        }
+//        else
+//        {
+//
+//        }
+//    }
 
     public void onItemSelected(AdapterView<?> parent, View view,
                                int pos, long id) {
