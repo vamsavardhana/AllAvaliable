@@ -58,30 +58,30 @@ public class selection extends Activity {
         }
 
         //Get current location: latitude and longitude
-        Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-        double longitude = location.getLongitude();
-        double latitude = location.getLatitude();
-        float dist=getDistanceInMiles(latitude,longitude);
-        Log.i("The distance from", "The distance from " + (int) dist);
-        if((int)dist>50)
-        {
-            bldgno=23;
-        }
-        else
-        {
-            bldgno=19;
-        }
+//        Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+//        double longitude = location.getLongitude();
+//        double latitude = location.getLatitude();
+//        float dist=getDistanceInMiles(latitude,longitude);
+//        Log.i("The distance from", "The distance from " + (int) dist);
+//        if((int)dist>50)
+//        {
+//            bldgno=23;
+//        }
+//        else
+//        {
+//            bldgno=19;
+//        }
 
         //Attach the mapview fragment to selection activity
         Log.i("Fragment created", "Fragment created");
         FragmentManager fragmanager=getFragmentManager();
         FragmentTransaction fragtransaction=fragmanager.beginTransaction();
             Log.i("went in", "Went in");
-            Mapview mp2=new Mapview();
-            fragtransaction.replace(R.id.fragment1, mp2).addToBackStack("TAG").commit();
-            getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
-        Log.i("Fragment finished", "Fragment finished");
-        setContentView(R.layout.ui_selection);
+//            Mapview mp2=new Mapview();
+//            fragtransaction.replace(R.id.fragment1, mp2).addToBackStack("TAG").commit();
+//            getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
+//        Log.i("Fragment finished", "Fragment finished");
+//        setContentView(R.layout.ui_selection);
         Bundle extras = getIntent().getExtras();
         final String uname1=extras.getString("uname");
         //Tell the user which room he is in

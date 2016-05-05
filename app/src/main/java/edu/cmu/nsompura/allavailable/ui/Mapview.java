@@ -43,14 +43,14 @@ public class Mapview extends Fragment {
         Log.i("Inside mapview", "Inside mapview");
 
         // Gets the MapView from the XML layout and creates it
-        mapView = (MapView) v.findViewById(R.id.mapview1);
+/*       mapView = (MapView) v.findViewById(R.id.mapview1);
         Log.i("find mapview", "find mapview");
         mapView.onCreate(savedInstanceState);
         Log.i("mapview created","mapview created");
         // Gets to GoogleMap from the MapView and does initialization stuff
         map = mapView.getMap();
         Log.i("gets map", "gets map");
-        map.getUiSettings().setMyLocationButtonEnabled(false);
+        map.getUiSettings().setMyLocationButtonEnabled(false);*/
         Log.i("disableslocationenbtn","disableslocationenbtn");
         if (ActivityCompat.checkSelfPermission(MyApp.getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MyApp.getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
