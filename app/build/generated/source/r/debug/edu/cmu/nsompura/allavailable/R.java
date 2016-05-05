@@ -1912,14 +1912,13 @@ containing a value of this type.
         public static final int book_ui_seat=0x7f0d0089;
         public static final int bookingInfoTitle=0x7f0d0081;
         public static final int bookingTime=0x7f0d0080;
-        public static final int bookingbookingid=0x7f0d008a;
+        public static final int bookingTime1=0x7f0d008a;
+        public static final int bookingTime2=0x7f0d008b;
         public static final int broom=0x7f0d00ca;
         public static final int btn1=0x7f0d008d;
         public static final int btn10=0x7f0d0096;
         public static final int btn11=0x7f0d0097;
         public static final int btn12=0x7f0d0098;
-        public static final int btn13=0x7f0d008b;
-        public static final int btn14=0x7f0d008c;
         public static final int btn15=0x7f0d00d2;
         public static final int btn16=0x7f0d00d3;
         public static final int btn2=0x7f0d008e;
@@ -2004,6 +2003,7 @@ containing a value of this type.
         public static final int list_item=0x7f0d0033;
         public static final int login=0x7f0d006c;
         public static final int logoutButton=0x7f0d0082;
+        public static final int logoutButton2=0x7f0d008c;
         public static final int mapview=0x7f0d00d0;
         public static final int mapview1=0x7f0d005c;
         public static final int mapview2=0x7f0d005b;

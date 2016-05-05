@@ -29,6 +29,10 @@ public class roomnotification extends AppCompatActivity {
         String uname1=extras.getString("uname");
         String room=extras.getString("roomid");
         String timeslot=extras.getString("timeslot");
+        Log.i("PUTEXTRA1",timeslot);
+        Log.i("PUTEXTRA1",uname1);
+        Log.i("PUTEXTRA1",buildingNumber+"");
+        Log.i("PUTEXTRA1",room);
         setContentView(R.layout.ui_roomnotification);
         TextView date=(TextView)findViewById(R.id.bookingTime);
         bookroom=(TextView)findViewById(R.id.bookingInfoTitle);

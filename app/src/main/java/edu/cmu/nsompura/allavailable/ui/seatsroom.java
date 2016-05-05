@@ -52,60 +52,53 @@ public class seatsroom extends Activity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Thread thread = new Thread(new Runnable() {
-                    private login parent;
-
-                    @Override
-                    public void run() {
-
-                        try {
-                            URL url = new URL("http://172.29.92.114:8080/ServerForAllAvaliable/AllAvaliableServer");
-                            Log.i("URL", "URL");
-                            URLConnection connection = url.openConnection();
-                            Log.i("Connection", "Connection");
-                            GLG = spinner.getSelectedItem().toString();
-                            String inputString = "studyroomstatus:" + GLG;
-                            Log.i("InputString", inputString);
-                            connection.setDoOutput(true);
-                            Log.i("Connection.setDooutput", "Connection.setdooutput");
-                            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
-                            Log.i("osw", "osw");
-                            out.write(inputString);
-                            out.close();
-                            Log.i("out.close", "out.close");
-                            InputStreamReader in = new InputStreamReader(connection.getInputStream());
-                            Log.i("isr", "isr");
-                            BufferedReader buff = new BufferedReader(in);
-                            Log.i("buff", "buff");
-                            String returnString = "";
-                            while ((returnString = buff.readLine()) != null) {
-                                doubledValue = returnString;
-                            }
-                            Log.i("DoubledValue", doubledValue);
-                            in.close();
-                            buff.close();
-
-                        } catch (Exception e) {
-                            Log.d("Exception", e.toString());
-                        }
-
-                    }
-                });
-                thread.start();
-                while (flag == 1) {
-                    if (doubledValue != "0") {
-
+//               Thread thread = new Thread(new Runnable() {
+//                    private login parent;
+//
+//                    @Override
+//                    public void run() {
+//
+//                        try {
+//                            URL url = new URL("http://172.29.92.114:8080/ServerForAllAvaliable/AllAvaliableServer");
+//                            Log.i("URL", "URL");
+//                            URLConnection connection = url.openConnection();
+//                            Log.i("Connection", "Connection");
+//                            GLG = spinner.getSelectedItem().toString();
+//                            String inputString = "studyroomstatus:" + GLG;
+//                            Log.i("InputString", inputString);
+//                            connection.setDoOutput(true);
+//                            Log.i("Connection.setDooutput", "Connection.setdooutput");
+//                            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
+//                            Log.i("osw", "osw");
+//                            out.write(inputString);
+//                            out.close();
+//                            Log.i("out.close", "out.close");
+//                            InputStreamReader in = new InputStreamReader(connection.getInputStream());
+//                            Log.i("isr", "isr");
+//                            BufferedReader buff = new BufferedReader(in);
+//                            Log.i("buff", "buff");
+//                            String returnString = "";
+//                            doubledValue="";
+//                            while ((returnString = buff.readLine()) != null) {
+//                                doubledValue =doubledValue+ returnString;
+//                            }
+//                            Log.i("DoubledValue", doubledValue);
+//                            in.close();
+//                            buff.close();
+//
+//                        } catch (Exception e) {
+//                            Log.d("Exception", e.toString());
+//                        }
+//
+//                    }
+//                });
                         Intent myIntent = new Intent(seatsroom.this, seatsbook.class);
                         Log.i("GLG VALUE IS ", GLG);
                         myIntent.putExtra("Building_Number", buildingNumber);
-                        myIntent.putExtra("roomid", GLG);
-                        myIntent.putExtra("seatstatuses", doubledValue);
+                        myIntent.putExtra("roomid", spinner.getSelectedItem().toString());
+//                        myIntent.putExtra("seatstatuses", doubledValue);
                         myIntent.putExtra("uname", uname1);
                         startActivity(myIntent);
-                        break;
-                    }
-
-                }
                 Log.i("OUT", "OUT");
             }
         });

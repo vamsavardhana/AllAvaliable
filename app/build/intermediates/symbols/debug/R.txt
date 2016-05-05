@@ -567,14 +567,13 @@ int id book 0x7f0d0087
 int id book_ui_seat 0x7f0d0089
 int id bookingInfoTitle 0x7f0d0081
 int id bookingTime 0x7f0d0080
-int id bookingbookingid 0x7f0d008a
+int id bookingTime1 0x7f0d008a
+int id bookingTime2 0x7f0d008b
 int id broom 0x7f0d00ca
 int id btn1 0x7f0d008d
 int id btn10 0x7f0d0096
 int id btn11 0x7f0d0097
 int id btn12 0x7f0d0098
-int id btn13 0x7f0d008b
-int id btn14 0x7f0d008c
 int id btn15 0x7f0d00d2
 int id btn16 0x7f0d00d3
 int id btn2 0x7f0d008e
@@ -659,6 +658,7 @@ int id listMode 0x7f0d0009
 int id list_item 0x7f0d0033
 int id login 0x7f0d006c
 int id logoutButton 0x7f0d0082
+int id logoutButton2 0x7f0d008c
 int id mapview 0x7f0d00d0
 int id mapview1 0x7f0d005c
 int id mapview2 0x7f0d005b
