@@ -45,7 +45,7 @@ public class signup extends Activity {
 
                         try{
                             Log.i("username",username.getText().toString()+"");
-                            URL url = new URL("http://172.29.92.114:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
                             Log.i("URL","URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection","Connection");
