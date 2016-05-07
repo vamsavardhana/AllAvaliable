@@ -45,42 +45,42 @@ public class selection extends Activity {
         super.onCreate(savedInstanceState);
 
         //Checking if location is building 19 or building 23
-        LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
-
-        //Get current location: latitude and longitude
-        Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-        double longitude = location.getLongitude();
-        double latitude = location.getLatitude();
-        float dist=getDistanceInMiles(latitude,longitude);
-        Log.i("The distance from", "The distance from " + (int) dist);
-        if((int)dist>50)
-        {
-            bldgno=23;
-        }
-        else
-        {
-            bldgno=19;
-        }
+//        LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+//        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//            // TODO: Consider calling
+//            //    ActivityCompat#requestPermissions
+//            // here to request the missing permissions, and then overriding
+//            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+//            //                                          int[] grantResults)
+//            // to handle the case where the user grants the permission. See the documentation
+//            // for ActivityCompat#requestPermissions for more details.
+//            return;
+//        }
+//
+//        //Get current location: latitude and longitude
+//        Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+//        double longitude = location.getLongitude();
+//        double latitude = location.getLatitude();
+//        float dist=getDistanceInMiles(latitude,longitude);
+//        Log.i("The distance from", "The distance from " + (int) dist);
+//        if((int)dist>50)
+//        {
+//            bldgno=23;
+//        }
+//        else
+//        {
+//            bldgno=19;
+//        }
 
         //Attach the mapview fragment to selection activity
-        Log.i("Fragment created", "Fragment created");
-        FragmentManager fragmanager=getFragmentManager();
-        FragmentTransaction fragtransaction=fragmanager.beginTransaction();
-            Log.i("went in", "Went in");
-            Mapview mp2=new Mapview();
-            fragtransaction.replace(R.id.fragment1, mp2).addToBackStack("TAG").commit();
-            getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
-        Log.i("Fragment finished", "Fragment finished");
+//        Log.i("Fragment created", "Fragment created");
+//        FragmentManager fragmanager=getFragmentManager();
+//        FragmentTransaction fragtransaction=fragmanager.beginTransaction();
+//            Log.i("went in", "Went in");
+//            Mapview mp2=new Mapview();
+//            fragtransaction.replace(R.id.fragment1, mp2).addToBackStack("TAG").commit();
+//            getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
+//        Log.i("Fragment finished", "Fragment finished");
         setContentView(R.layout.ui_selection);
         Bundle extras = getIntent().getExtras();
         final String uname1=extras.getString("uname");

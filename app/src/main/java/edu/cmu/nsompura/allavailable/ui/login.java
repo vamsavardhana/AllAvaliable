@@ -24,6 +24,7 @@ public class login extends AppCompatActivity {
     String user_name;
     String pass_word;
     static String doubledValue="0";
+    String passw;
 //    static String doubledValue="";
 //    static final LatLng HAMBURG = new LatLng(53.558, 9.927);
 //    static final LatLng KIEL = new LatLng(53.551, 9.993);
@@ -42,6 +43,8 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                usern = username.getText().toString();
+                passw = password.getText().toString();
                 doubledValue="";
                 Log.i("in", "in");
                 Thread thread = new Thread(new Runnable()
@@ -56,8 +59,7 @@ public class login extends AppCompatActivity {
                     Log.i("URL","URL");
                     URLConnection connection = url.openConnection();
                     Log.i("Connection","Connection");
-                    usern = username.getText().toString();
-                    String passw=password.getText().toString();
+
                     String inputString="login:uname:"+usern+";pword:"+passw;
                     Log.i("InputString", inputString);
                     connection.setDoOutput(true);
@@ -77,7 +79,7 @@ public class login extends AppCompatActivity {
                     {
                         doubledValue= returnString;
                     }
-                    Log.i("DoubledValue",doubledValue);
+                    Log.i("DoubledValue", doubledValue);
                     in.close();
                     buff.close();
 //                    if(doubledValue.contains("ufalse"))
@@ -125,9 +127,14 @@ public class login extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"The password is incorrect. Login again!!",Toast.LENGTH_SHORT).show();
                     break;
                 }
-                else
+                else if(usern.equals(""))
                 {
-
+                    Toast.makeText(getApplicationContext(),"Please enter the username!",Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                else if(passw.equals("")){
+                    Toast.makeText(getApplicationContext(),"Please enter the password!",Toast.LENGTH_SHORT).show();
+                    break;
                 }
                 }
             }});

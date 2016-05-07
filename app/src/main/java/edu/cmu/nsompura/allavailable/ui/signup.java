@@ -23,6 +23,8 @@ import edu.cmu.nsompura.allavailable.R;
 public class signup extends Activity {
     Button signup;
     EditText username,password;
+    String usern;
+    String passw;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,8 @@ public class signup extends Activity {
             public void onClick(View v) {
 
                 Log.i("in", "in");
+                usern = username.getText().toString();
+                passw = password.getText().toString();
                 Thread thread = new Thread(new Runnable()
                 {
                     private login parent;
@@ -49,8 +53,7 @@ public class signup extends Activity {
                             Log.i("URL","URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection","Connection");
-                            String usern = username.getText().toString();
-                            String passw=password.getText().toString();
+
                             String inputString="signup:uname:"+usern+";pword:"+passw;
                             Log.i("InputString",inputString);
                             connection.setDoOutput(true);
@@ -93,6 +96,8 @@ public class signup extends Activity {
                         }
 
                     }});thread.start();
+
+
                 Intent intent = new Intent(signup.this,login.class);
                 startActivity(intent);
 
