@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_2673f2147fab4092fcf142d20c7387d750530d3a.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_20687965ee4f8274308b0a159a2685311c42ef1e.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_84ad651950aa7efbd0105e6136a9cea95b4dddb4.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_92905e66f52242d6c5468f4b9b218a93c67ae1ad.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_420872ebc7b59a9341cb6be034c768ff132d0a39.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_7be2dff769cd10349b41fa78f79e468be55feac9.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_37427c6284176adcb8d4dad2b8c55d10f2496eda.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_4dfe584079bb82b71f58f2beb9bac216f971d962.jar" />
+    </item>
+    <item
+        jar="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_341b30c2ef61098028a515b18d9a0ae04d8156c6.jar" />
+    </item>
+
+</items>

@@ -16,6 +16,10 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
         "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
