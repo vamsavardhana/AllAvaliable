@@ -21,6 +21,7 @@ import java.net.URLConnection;
 import java.util.StringTokenizer;
 
 import edu.cmu.nsompura.allavailable.R;
+import edu.cmu.nsompura.allavailable.models.IPAdress;
 import edu.cmu.nsompura.allavailable.models.building;
 
 /**
@@ -34,12 +35,14 @@ public class roomUI extends AppCompatActivity {
     static String ts="0000";
     String doubledValue = "0000";
     Button btn;
+    IPAdress ip;
     static String brkdown1[]=new String[8];
     TextView label_column21,label_column22,label_column23,label_column24;
 
     String uname;
     protected void onCreate(Bundle savedInstanceState) {
 
+        ip = new IPAdress();
         //Bundle from previous activity
         Bundle extras = getIntent().getExtras();
         buildingNumber= extras.getInt("Building_Number");
@@ -71,7 +74,7 @@ public class roomUI extends AppCompatActivity {
             {
 
                 try{
-                    URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                    URL url = new URL(ip.getIp());
                     Log.i("URL","URL");
                     URLConnection connection = url.openConnection();
                     Log.i("Connection","Connection");
@@ -384,7 +387,7 @@ Log.i("WORKING TONITE",brkdown1[1]+"!!"+brkdown1[3]+"!!"+brkdown1[5]+"!!"+brkdow
                                     public void run() {
 
                                         try {
-                                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                                            URL url = new URL(ip.getIp());
                                             Log.i("URL", "URL");
                                             URLConnection connection = url.openConnection();
                                             Log.i("Connection", "Connection");

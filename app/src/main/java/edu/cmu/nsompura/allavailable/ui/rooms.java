@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import edu.cmu.nsompura.allavailable.models.IPAdress;
 import edu.cmu.nsompura.allavailable.models.room;
 
 import java.io.BufferedReader;
@@ -37,9 +38,11 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
     static String doubledValue="0";
     int flag=1;
     static String uname;String uname1;
+    IPAdress ip;
     //String uname;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ip = new IPAdress();
         Bundle extras = getIntent().getExtras();
         buildingNumber= extras.getInt("Building_Number");
         uname1=extras.getString("uname");
@@ -73,7 +76,7 @@ public class rooms extends Activity implements AdapterView.OnItemSelectedListene
                     {
 
                         try{
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL","URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection","Connection");

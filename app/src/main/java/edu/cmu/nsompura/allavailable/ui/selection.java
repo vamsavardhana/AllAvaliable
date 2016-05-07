@@ -71,16 +71,16 @@ public class selection extends Activity {
 //        {
 //            bldgno=19;
 //        }
-
-        //Attach the mapview fragment to selection activity
+//
+//      //  Attach the mapview fragment to selection activity
 //        Log.i("Fragment created", "Fragment created");
 //        FragmentManager fragmanager=getFragmentManager();
 //        FragmentTransaction fragtransaction=fragmanager.beginTransaction();
 //            Log.i("went in", "Went in");
 //            Mapview mp2=new Mapview();
 //            fragtransaction.replace(R.id.fragment1, mp2).addToBackStack("TAG").commit();
-//            getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
-//        Log.i("Fragment finished", "Fragment finished");
+            getFragmentManager().dump("", null, new PrintWriter(System.out, true), null);
+        Log.i("Fragment finished", "Fragment finished");
         setContentView(R.layout.ui_selection);
         Bundle extras = getIntent().getExtras();
         final String uname1=extras.getString("uname");

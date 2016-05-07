@@ -1,15 +1,7 @@
 [
     {
-        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
@@ -20,12 +12,44 @@
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/Refine/NidhishAPP/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
@@ -44,20 +68,12 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
@@ -68,16 +84,12 @@
         "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/anna/Desktop/AllAvailable2/AllAvailable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",

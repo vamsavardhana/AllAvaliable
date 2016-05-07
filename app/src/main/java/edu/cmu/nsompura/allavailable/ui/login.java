@@ -16,6 +16,8 @@ import java.net.URL;
 import java.net.URLConnection;
 
 import edu.cmu.nsompura.allavailable.R;
+import edu.cmu.nsompura.allavailable.exception.customexception;
+import edu.cmu.nsompura.allavailable.models.IPAdress;
 
 public class login extends AppCompatActivity {
     EditText username, password;boolean flag=true;
@@ -25,6 +27,7 @@ public class login extends AppCompatActivity {
     String pass_word;
     static String doubledValue="0";
     String passw;
+    IPAdress ip;
 //    static String doubledValue="";
 //    static final LatLng HAMBURG = new LatLng(53.558, 9.927);
 //    static final LatLng KIEL = new LatLng(53.551, 9.993);
@@ -32,12 +35,14 @@ public class login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final customexception cusexcep = new customexception();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_login);
         login=(Button)findViewById(R.id.login);
         signup=(Button)findViewById(R.id.signup);
         username=(EditText)findViewById(R.id.uname);
         password=(EditText)findViewById(R.id.pass);
+        ip = new IPAdress();
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +50,8 @@ public class login extends AppCompatActivity {
 
                 usern = username.getText().toString();
                 passw = password.getText().toString();
+
+
                 doubledValue="";
                 Log.i("in", "in");
                 Thread thread = new Thread(new Runnable()
@@ -55,7 +62,7 @@ public class login extends AppCompatActivity {
                     {
 
                 try{
-                    URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                    URL url = new URL(ip.getIp());
                     Log.i("URL","URL");
                     URLConnection connection = url.openConnection();
                     Log.i("Connection","Connection");
@@ -82,6 +89,13 @@ public class login extends AppCompatActivity {
                     Log.i("DoubledValue", doubledValue);
                     in.close();
                     buff.close();
+                    if(usern.length()==0||passw.length()==0){
+                        int chk =  cusexcep.fix(1);
+                        if(chk==1){
+                            doubledValue = "ufalse";
+
+                        }
+                    }
 //                    if(doubledValue.contains("ufalse"))
 //                    {
 //                        Toast.makeText(getApplicationContext(),"The username and password are wrong",Toast.LENGTH_SHORT);

@@ -36,8 +36,20 @@
         "source": "/home/anna/Desktop/AllAvaliable/app/src/main/res/layout-xlarge/ui_rooms.xml"
     },
     {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_sendsms.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_sendsms.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_signup.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_signup.xml"
+    },
+    {
         "merged": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_rooms.xml",
         "source": "/home/anna/Desktop/AllAvaliable/AllAvaliable/app/src/main/res/layout-xlarge/ui_rooms.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_login.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_login.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_seatnotification.xml",
@@ -50,6 +62,10 @@
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_selection.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout-xlarge/ui_selection.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_seats.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_seats.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_login.xml",
@@ -78,6 +94,10 @@
     {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_sendpicture.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout-xlarge/ui_sendpicture.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/spinner.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/spinner.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/spinner.xml",
@@ -118,6 +138,10 @@
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_seats.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout-xlarge/ui_seats.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_roomnotification.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_roomnotification.xml"
     },
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_roomnotification.xml",
@@ -164,6 +188,10 @@
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout-xlarge/ui_login.xml"
     },
     {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_rooms.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_rooms.xml"
+    },
+    {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_seats.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout-xlarge/ui_seats.xml"
     },
@@ -186,6 +214,10 @@
     {
         "merged": "/home/anna/Desktop/AllAvailable (2)/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_sendsms.xml",
         "source": "/home/anna/Desktop/AllAvailable (2)/app/src/main/res/layout-xlarge/ui_sendsms.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_selection.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_selection.xml"
     },
     {
         "merged": "/home/anna/Desktop/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_seatnotification.xml",
@@ -220,6 +252,14 @@
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout-xlarge/ui_signup.xml"
     },
     {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_seatnotification.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_seatnotification.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_room.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_room.xml"
+    },
+    {
         "merged": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_room.xml",
         "source": "/home/nidhish/AndroidStudioProjects/AllAvailable/app/src/main/res/layout-xlarge/ui_room.xml"
     },
@@ -230,5 +270,9 @@
     {
         "merged": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_sendsms.xml",
         "source": "/Users/feixu/Desktop/CMU-STUDY/CMU_courses/18641java_smart_phone_development/min2/SemesterProject/project/AllAvaliable/app/src/main/res/layout-xlarge/ui_sendsms.xml"
+    },
+    {
+        "merged": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/build/intermediates/res/merged/debug/layout-xlarge-v4/ui_sendpicture.xml",
+        "source": "/home/nidhish/Desktop/Java/Project/AllAvaliable/app/src/main/res/layout-xlarge/ui_sendpicture.xml"
     }
 ]

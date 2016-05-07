@@ -16,6 +16,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 import edu.cmu.nsompura.allavailable.R;
+import edu.cmu.nsompura.allavailable.models.IPAdress;
 
 /**
  * Created by nidhish on 4/4/16.
@@ -25,6 +26,7 @@ public class signup extends Activity {
     EditText username,password;
     String usern;
     String passw;
+    IPAdress ip;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,8 @@ public class signup extends Activity {
         username = (EditText)findViewById(R.id.uName);
         password= (EditText)findViewById(R.id.pWord);
         signup = (Button)findViewById(R.id.signup2);
+        ip = new IPAdress();
+
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,7 +53,7 @@ public class signup extends Activity {
 
                         try{
                             Log.i("username",username.getText().toString()+"");
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL","URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection","Connection");

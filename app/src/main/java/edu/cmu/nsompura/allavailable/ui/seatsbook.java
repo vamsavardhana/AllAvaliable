@@ -18,6 +18,7 @@ import java.net.URLConnection;
 import java.util.StringTokenizer;
 
 import edu.cmu.nsompura.allavailable.R;
+import edu.cmu.nsompura.allavailable.models.IPAdress;
 
 /**
  * Created by anna on 5/2/16.
@@ -35,6 +36,7 @@ public class seatsbook extends Activity {
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16;
     TextView tv1,tv2,tv3,tv4,tv5,tv6,tv7,tv8,tv9,tv10,tv11,tv12,tv13,tv14,tv15,tv16;
     String roomid1;
+    IPAdress ip;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -44,7 +46,7 @@ public class seatsbook extends Activity {
         roomid = extras.getString("roomid");
         //seatstatuses = extras.getString("seatstatuses");
         uname = extras.getString("uname");
-
+        ip = new IPAdress();
 
         //send query and get response
         Thread thread = new Thread(new Runnable() {
@@ -54,7 +56,7 @@ public class seatsbook extends Activity {
             public void run() {
 
                 try {
-                    URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                    URL url = new URL(ip.getIp());
                     Log.i("URL", "URL");
                     URLConnection connection = url.openConnection();
                     Log.i("Connection", "Connection");
@@ -239,7 +241,7 @@ public class seatsbook extends Activity {
                         public void run() {
 
                             try {
-                                URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                                URL url = new URL(ip.getIp());
                                 Log.i("URL", "URL");
                                 URLConnection connection = url.openConnection();
                                 Log.i("Connection", "Connection");
@@ -316,7 +318,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -393,7 +395,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -470,7 +472,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -547,7 +549,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -624,7 +626,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -701,7 +703,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -778,7 +780,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -855,7 +857,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -932,7 +934,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -1008,7 +1010,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -1084,7 +1086,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -1160,7 +1162,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -1236,7 +1238,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -1312,7 +1314,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
@@ -1388,7 +1390,7 @@ public class seatsbook extends Activity {
                     public void run() {
 
                         try {
-                            URL url = new URL("http://172.29.92.36:8080/ServerForAllAvaliable/AllAvaliableServer");
+                            URL url = new URL(ip.getIp());
                             Log.i("URL", "URL");
                             URLConnection connection = url.openConnection();
                             Log.i("Connection", "Connection");
